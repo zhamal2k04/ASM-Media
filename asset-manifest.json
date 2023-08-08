@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ASM--Media/static/css/main.3e844409.css",
+    "main.js": "/ASM--Media/static/js/main.dc44f44d.js",
+    "static/media/center-image.png": "/ASM--Media/static/media/center-image.4e7d9e598512c6caea7a.png",
+    "static/media/bus.png": "/ASM--Media/static/media/bus.2fb0998f5af4a92daddf.png",
+    "static/media/banner2.png": "/ASM--Media/static/media/banner2.06e88679f50e6fb02439.png",
+    "static/media/bg-maincard.png": "/ASM--Media/static/media/bg-maincard.8f1dd2eb662866ab0ec8.png",
+    "static/media/banner.png": "/ASM--Media/static/media/banner.9b83578d3480788cf026.png",
+    "static/media/led.png": "/ASM--Media/static/media/led.9b3a440eb49422299b3f.png",
+    "static/media/radio.png": "/ASM--Media/static/media/radio.0c90e8cd25b59604df43.png",
+    "static/media/telegram.png": "/ASM--Media/static/media/telegram.7ab76d2c31ddb384258a.png",
+    "static/media/my5.png": "/ASM--Media/static/media/my5.466e0683169068a30a5c.png",
+    "static/media/cell.png": "/ASM--Media/static/media/cell.7ffbba8d74f43cba8217.png",
+    "static/media/zortv.png": "/ASM--Media/static/media/zortv.a94e4783075d9b3ebc46.png",
+    "static/media/sevimli.png": "/ASM--Media/static/media/sevimli.d026638d8312a1d705db.png",
+    "static/media/footer-logo.jpg": "/ASM--Media/static/media/footer-logo.b825a3af0189555d08ea.jpg",
+    "static/media/cinema.png": "/ASM--Media/static/media/cinema.2f6c9ec279359b215a38.png",
+    "static/media/instagram.png": "/ASM--Media/static/media/instagram.fe4ff9004905b9d5c909.png",
+    "static/media/navo.jpg": "/ASM--Media/static/media/navo.219119cb16c3bc5185f3.jpg",
+    "static/media/card.png": "/ASM--Media/static/media/card.e500c32c3a78b310b6a2.png",
+    "static/media/sport.jpg": "/ASM--Media/static/media/sport.bd8ee117ca5c0d08e5fc.jpg",
+    "index.html": "/ASM--Media/index.html",
+    "main.3e844409.css.map": "/ASM--Media/static/css/main.3e844409.css.map",
+    "main.dc44f44d.js.map": "/ASM--Media/static/js/main.dc44f44d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e844409.css",
+    "static/js/main.dc44f44d.js"
+  ]
+}
