@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.serviceComponent-container {
+  margin-top: 70px;
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+}
+.serviceTitle {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.serviceTitle > h1 {
+  color: #c5964f;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.serviceTitle > h2 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.serviceTitle > h3 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.serviceChannels {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.rowImgs {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rowImgs > img {
+  width: 210px;
+  height: 180px;
+  transition: 0.5s all ease-in-out;
+  transform: scale(1);
+}
+.rowImgs > img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.channelsCards {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.cardsHolder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.cardRow {
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  background-image: url("../../../../Assets/Images/card.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardsHolder .cardRow:nth-child(3) {
+  gap: 20px;
+}
+
+.cardRow > h1 {
+  margin-top: 30px;
+  color: #000;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cardRow > img {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  left: 120px;
+}
+#third {
+  left: 110px;
+  width: 180px;
+  height: 100px;
+}
+
+.channelsCards .cardsHolder:nth-child(2) > .cardRow:first-child > img {
+  width: 240px;
+  left: 80px;
+}
+
+.channelsCards > .cardsHolder:nth-child(2) > .cardRow:nth-child(3) > img {
+  height: 200px;
+}
+.channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(1) > img {
+  margin-top: 15px;
+}
+.channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(2) > img {
+  margin-top: 15px;
+}
+.channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > img {
+  margin-top: 15px;
+}
+
+.channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > h1 {
+  margin-top: 50px;
+}
+
+.offers {
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offers > h1 {
+  color: #c5964f;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offers > h2 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

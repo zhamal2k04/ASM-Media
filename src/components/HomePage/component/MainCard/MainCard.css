@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainCard-container {
+  width: 100%;
+  height: 900px;
+  background-image: url("../../../../Assets/Images/bg-maincard.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCard-sectionHandler {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainCard-Title {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mainCard-Title > h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Abhaya Libre", serif;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.mainCard-Title > h2 {
+  color: #fff;
+  font-family: "Irish Grover", cursive;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainCard-Title > h3 {
+  color: #fff;
+  font-family: "Abhaya Libre", serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.mainCard-ads {
+  width: 100%;
+  height: 330px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.mainCard-ads > p {
+  color: #000;
+  font-family: 'Alice', serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
