@@ -2,7 +2,7 @@
   "name": "asm-media",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhamal2k04.github.io/ASM--Media",
+  "homepage": "https://zhamal2k04.github.io/ASM--Media/#/home",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
