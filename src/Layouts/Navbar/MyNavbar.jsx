@@ -32,10 +32,10 @@ const MyNavbar = () => {
           </section>
           <section className='nav-links'>
               <ul>
-                <Link to={"/"}>Home</Link>
-                <Link to={"/"}>About</Link>
-                <Link to={"/"}>Portfolio</Link>
-                <Link to={"/"}>Contacts</Link>
+                <Link to={"/home"}>Home</Link>
+                <Link to={"/about"}>About</Link>
+                <Link to={"/portfolio"}>Portfolio</Link>
+                <Link to={"/contacts"}>Contacts</Link>
               </ul>
           </section>
         </div>

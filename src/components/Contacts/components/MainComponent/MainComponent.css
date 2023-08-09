@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainComponent-container {
+  width: 100%;
+  height: 700px;
+  background-image: url("../../../../Assets/Images/bg-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem;
+  display: flex;
+  align-items: last baseline;
+}
+
+.mainComponent-container > h1 {
+  text-align: left;
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 414px) {
+  .mainComponent-container {
+    width: 100%;
+    height: 270px;
+    background-image: url("../../../../Assets/Images/bg-main.png");
+    background-size: cover;
+    padding: 1rem;
+  }
+  .mainComponent-container > h1 {
+    text-align: left;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}

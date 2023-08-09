@@ -20,10 +20,7 @@
   width: 100%;
   height: 500px;
   text-align: center;
-  background-color: red;
-  background-image: url('../../../../Assets/Videos/bg-video.gif');
-  background-size: cover;
-  background-position: center;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,12 +94,9 @@
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  background-color: red;
-  margin-top: 100px;
-  background-image: url('../../../../Assets/Videos/bg-video.gif');
-  background-size: 200vmax;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #000;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .cardsHolder {
@@ -177,7 +171,7 @@
 
 .offers {
   width: 100%;
-  height: 160px;
+  height: 150px;
   text-align: center;
   padding: 2rem;
   display: flex;
