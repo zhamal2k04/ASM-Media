@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ASM-Media/static/css/main.ee9fbe52.css",
-    "main.js": "/ASM-Media/static/js/main.65a0881d.js",
+    "main.css": "/ASM-Media/static/css/main.fe281f43.css",
+    "main.js": "/ASM-Media/static/js/main.1115f707.js",
     "static/media/center-image.png": "/ASM-Media/static/media/center-image.4e7d9e598512c6caea7a.png",
     "static/media/bg-main.png": "/ASM-Media/static/media/bg-main.35e4d7235f61c60f90c1.png",
     "static/media/bus.png": "/ASM-Media/static/media/bus.2fb0998f5af4a92daddf.png",
@@ -16,17 +16,18 @@
     "static/media/footer-logo.jpg": "/ASM-Media/static/media/footer-logo.0a9fa889bad0f1a7077b.jpg",
     "static/media/sevimli.png": "/ASM-Media/static/media/sevimli.d026638d8312a1d705db.png",
     "static/media/cinema.png": "/ASM-Media/static/media/cinema.2f6c9ec279359b215a38.png",
+    "static/media/locationPng.png": "/ASM-Media/static/media/locationPng.eb8073289de8df91ad89.png",
     "static/media/navo.jpg": "/ASM-Media/static/media/navo.219119cb16c3bc5185f3.jpg",
     "static/media/card.png": "/ASM-Media/static/media/card.e500c32c3a78b310b6a2.png",
     "static/media/sport.jpg": "/ASM-Media/static/media/sport.bd8ee117ca5c0d08e5fc.jpg",
     "static/media/cellPic.png": "/ASM-Media/static/media/cellPic.65702f01438179aac048.png",
     "static/media/geoLoc.png": "/ASM-Media/static/media/geoLoc.a240b7d6aa675e70be92.png",
     "index.html": "/ASM-Media/index.html",
-    "main.ee9fbe52.css.map": "/ASM-Media/static/css/main.ee9fbe52.css.map",
-    "main.65a0881d.js.map": "/ASM-Media/static/js/main.65a0881d.js.map"
+    "main.fe281f43.css.map": "/ASM-Media/static/css/main.fe281f43.css.map",
+    "main.1115f707.js.map": "/ASM-Media/static/js/main.1115f707.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee9fbe52.css",
-    "static/js/main.65a0881d.js"
+    "static/css/main.fe281f43.css",
+    "static/js/main.1115f707.js"
   ]
 }
