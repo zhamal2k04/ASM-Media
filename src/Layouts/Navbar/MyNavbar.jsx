@@ -8,37 +8,33 @@ import { Link } from 'react-router-dom'
 
 const MyNavbar = () => {
   return (
-    <div className='nav-container'>
-        <div className="leftSection">
-          <img src={nav_logo} alt="/" /> 
-        </div>
-        <div className="rightSection">
-          <section className='social-links'>
-                <div className="row">
-                    <img src={telegram} alt="/" />
-                    <p>@m_azizaas</p>
-                </div>
-                <div className="row">
-                    <img src={instagram} alt="/" />
-                    <p>@m_azizaas</p>
-                </div>
-                <div className="row">
-                    <img src={cell} alt="/" />
-                    <p>+998 12 3456789</p>
-                </div>
-                <div className="row">
-                  <p>language •</p>
-                </div>
-          </section>
-          <section className='nav-links'>
-              <ul>
-                <Link to={"/home"}>Home</Link>
-                <Link to={"/about"}>About</Link>
-                <Link to={"/portfolio"}>Portfolio</Link>
-                <Link to={"/contacts"}>Contacts</Link>
-              </ul>
-          </section>
-        </div>
+    <div class="nav-container">
+      <Link>
+        <img src={nav_logo} alt="/" />
+      </Link>
+      <div class="section">
+        <ol>
+          <li>
+            <img src={telegram}alt="/" />
+            <p>@m_azizaas</p>
+          </li>
+          <li>
+            <img src={instagram} alt="/" />
+            <p>@m_azizaas</p>
+          </li>
+          <li>
+            <img src={cell} alt="/" />
+            <p>+998 123 456789</p>
+          </li>
+        </ol>
+
+        <ul>
+          <Link to={'/home'}>Home</Link>
+          <Link to={'/about'}>About</Link>
+          <Link to={'/portfolio'}>Portfolio</Link>
+          <Link to={'/contacts'}>Contacts</Link>
+        </ul>
+      </div>
     </div>
   )
 }

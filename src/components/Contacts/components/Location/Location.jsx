@@ -10,7 +10,7 @@ const Location = () => {
                 <div className="leftLocation-Div">
                     <img src={geoLoc} alt="/" />
                     <h1>Наши местоположения</h1>
-                    <p>Узбекистан, Ташкент улица Богибустон 186</p>
+                    <p>Узбекистан, Ташкент<br/>улица Богибустон 186</p>
                 </div>
                 <div className="rightLocation-Div">
                     <img src={cellPic} alt="/" />

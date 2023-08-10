@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-Container {
+  width: 100%;
+  padding: 2rem;  
+}
+
+@media (max-width:414px) {
+    .leaflet-Container{
+      padding: 0;
+      width: 100%;
+      height: 400px;
+    }
+    #mapcontainer{
+      margin-top: 100px;
+      width: 100%;
+      height: 400px;
+    }
+}
