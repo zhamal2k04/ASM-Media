@@ -5,45 +5,120 @@ import { Link } from 'react-router-dom'
 
 const MyFooter = () => {
   return (
-    <div className='footer-container'>
-        <div className="rowsHandler">
-          <div className="rows">
-              <img src={footer_logo} alt="/" />
-          </div>
-          <div className="rows">
-              <h2>Наши Сервисы</h2>
-              <hr style={{width:'10.33rem', border: '2px solid white'}}/>
-              <ul>
-                <Link>Размещение рекламы на Тв</Link>
-                <Link>Наружные рекламы</Link>
-                <Link>Лед мониторинг</Link>
-                <Link>Баннеры по низким ценам</Link>
-                <Link>Снимать профессиональные видио ролики</Link>
-              </ul>
-          </div>
-          <div className="rows">
-              <h2>Быстрая Ссылка</h2>
-              <hr style={{width:'10.33rem', border: '2px solid white'}}/>
-              <ul>
-                <Link>» Главная</Link>
-                <Link>» О нас</Link>
-                <Link>» Портфолио</Link>
-                <Link>» Локация</Link>
-                <Link>» Контакты</Link>
-              </ul>
-          </div>
-          <div className="rows">
-              <h2>Свзязаться</h2>
-              <hr style={{width:'10.33rem', border: '2px solid white'}}/>
-              <ul>
-                <li>+998(33)0700070</li>
-                <li>+998(33)0700070</li>
-              </ul>
-              <h3>Узбекистан, Ташкент улица Богибустон 186</h3>
-              <p>@asm___media</p>
-          </div>
-        </div>
-    </div>
+    <div class="footer-container">
+    <img src={footer_logo} alt="/"/>
+    <ul>
+        <li>
+            <Link>
+                <h1>Наши Сервисы</h1>
+                <hr style={{border:'1px solid white'}}/>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    Размещение рекламы на Тв
+                </p>
+            </Link>
+        </li>
+        <li>
+          <Link>
+            <p>
+                Наружные рекламы
+            </p>
+          </Link>
+        </li>
+        <li>
+           <Link>
+            <p>
+                Автобусы левых краях
+            </p>
+           </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    Лед мониторинг
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    Баннеры по низким ценам
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    Снимать профессиональные видио ролики
+                </p>
+            </Link>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <Link>
+                <h1>Быстрые Ссылки</h1>
+                <hr style={{border:'1px solid white'}}/>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    » Главная
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    » О нас
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    » Портфолио
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    » Локация
+                </p>
+            </Link>
+        </li>
+        <li>
+            <Link>
+                <p>
+                    » Контакты
+                </p>
+            </Link>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <Link>
+                <h1>Свзяться</h1>
+                <hr style={{border:'1px solid white'}}/>
+            </Link>
+        </li>
+        <li>
+            <p>+998(33)0700070</p>
+            <p>+998(33)0700070</p>
+        </li>
+        <li>
+            <h2>Узбекистан, Ташкент<br/>улица Богибустон 186</h2>
+        </li>
+        <li>
+            <p>@m_azizaas</p>
+        </li>
+    </ul>
+</div>
   )
 }
 

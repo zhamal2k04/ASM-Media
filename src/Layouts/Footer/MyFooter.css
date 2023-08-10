@@ -1,88 +1,133 @@
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .footer-container {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: #000;
-  padding: 2rem;
-}
-.rowsHandler {
-  width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: row;
+  padding: 2rem;
   align-items: center;
   justify-content: space-between;
 }
-
-.rowsHandler .rows:first-child {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-  padding: 0;
+.footer-container > img {
+  width: 180px;
+  height: 160px;
 }
-
-.rowsHandler .rows:nth-child(2) > h2,
-.rowsHandler .rows:nth-child(3) > h2,
-.rowsHandler .rows:nth-child(4) > h2 {
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 30px;
-}
-
-.rowsHandler .rows:nth-child(2) > ul,
-.rowsHandler .rows:nth-child(3) > ul,
-.rowsHandler .rows:nth-child(4) > ul {
-  margin-top: 25px;
+.footer-container > ul {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-}
-.rowsHandler .rows:nth-child(2) > ul a,
-.rowsHandler .rows:nth-child(3) > ul a,
-.rowsHandler .rows:nth-child(4) > ul li {
   list-style: none;
+  gap: 10px;
+}
+
+.footer-container > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2px;
+  color: white;
+}
+.footer-container > ul > li > a {
   text-decoration: none;
+}
+.footer-container > ul > li > a > p {
+  margin-top: 4px;
+  text-decoration: none;
+  color: white;
   color: #fff;
-  font-family: "Abhaya Libre", serif;
-  font-size: 20px;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-container > ul > li > a > h1 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 32px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
 
-.rowsHandler .rows:nth-child(4) > h3 {
-  margin-top: 15px;
+.footer-container > ul > li > p {
+  margin-top: 4px;
+  text-decoration: none;
+  color: white;
   color: #fff;
-  font-family: "Abhaya Libre", serif;
-  font-size: 30px;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: normal;
 }
 
-.rowsHandler .rows:nth-child(4) > p {
-  margin-top: 20px;
+.footer-container > ul > li > h2 {
   color: #fff;
-  font-family: "Abhaya Libre", serif;
-  font-size: 24px;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
 }
 
-.rows {
-  padding: 1rem;
-  width: 350px;
-  height: 100%;
-}
-.rows > img {
-  width: 250px;
-  height: 200px;
-  cursor: pointer;
+@media (max-width: 414px) {
+  .footer-container {
+    width: 100%;
+    height: 720px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1rem;
+    gap: 20px;
+  }
+  .footer-container > img {
+    margin-top: 20px;
+    width: 120px;
+    height: 100px;
+  }
+  .footer-container > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2px;
+    color: white;
+  }
+  .footer-container > ul > li > a {
+    text-decoration: none;
+  }
+  .footer-container > ul > li > a > p {
+    margin-top: 4px;
+    text-decoration: none;
+    color: white;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .footer-container > ul > li > a > h1 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .footer-container > ul > li > h2 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }

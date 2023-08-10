@@ -4,6 +4,7 @@ import "leaflet/dist/leaflet.css";
 import styled from "styled-components";
 import { Icon } from "leaflet";
 import "./LocationCard.css"
+import marker from "../../../../Assets/Images/locationPng.png"
 
 const Map = styled(MapContainer)`
   width: 100%;
@@ -17,17 +18,24 @@ const Map = styled(MapContainer)`
 
 const LeafLet = () => {
   
+  const newMarker = new Icon({
+    iconUrl: marker,
+    iconSize: [40, 40],
+  });
+
   return (
     <div className="leaflet-Container">
-      <Map center={[51.505, -0.09]} id='mapcontainer' zoom={13} scrollWheelZoom={false}>
+      <Map center={[41.271818, 69.231984]} id='mapcontainer' zoom={13} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[51.505, -0.09]}>
+        <Marker position={[41.271818, 69.231984]} icon={newMarker}>
           <Popup>
-            <h1 style={{ textAlign: "center" }}>Cambodja</h1>
-            <span style={{ color: "#112" }}>Agency Central Office</span>
+            <h1 style={{ textAlign: "center" }}>Bog'ibo'ston</h1>
+            <span style={{ color: "#112", textAlign:'center' }}>
+              <p>Наша здания</p>
+            </span>
           </Popup>
         </Marker>
       </Map>
