@@ -12,12 +12,11 @@
 .mainCard-container {
   width: 100%;
   height: 900px;
-  /* background-image: url("../../../../Assets/Images/bg-maincard.png"); */
+  background-image: url("../../../../Assets/Images/bg-maincard.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  background-color: green;
   flex-direction: column;
 }
 
