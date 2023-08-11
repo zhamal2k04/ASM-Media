@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom'
 const MyFooter = () => {
   return (
     <div class="footer-container">
-    <img src={footer_logo} alt="/"/>
+    <section className='imgContainer'>
+        <img src={footer_logo} alt="/"/>
+    </section>
     <ul>
         <li>
             <Link>
