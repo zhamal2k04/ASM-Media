@@ -38,7 +38,6 @@ const ServiceComponent = () => {
           <img src={mahalla} alt="/" />
           <img src={ozbekiston24} alt="/" />
           <img src={yoshlar} alt="/" />
-          <img src={dunyo_boylab} alt="/" />
         </div>
         <div className="rowImgs">
           <img src={navo} alt="/" />
@@ -46,7 +45,9 @@ const ServiceComponent = () => {
           <img src={ozbekiston} alt="/" />
         </div>
       </div>
+
       <div className="channelsCards">
+        
         <div className="cardsHolder">
           <div className="cardRow">
             <h1>
@@ -73,6 +74,7 @@ const ServiceComponent = () => {
             <img src={my5} alt="/" id="third" />
           </div>
         </div>
+
         <div className="cardsHolder">
           <div className="cardRow">
             <h1>Наружные</h1>
@@ -91,7 +93,8 @@ const ServiceComponent = () => {
             <img src={led} alt="/" />
           </div>
         </div>
-        <div className="cardsHolder">
+        
+        {/* <div className="cardsHolder">
           <div className="cardRow">
             <h1>
               Баннеры
@@ -113,11 +116,12 @@ const ServiceComponent = () => {
             </h1>
             <img src={cinema} alt="/" />
           </div>
-        </div>
-        <div className="offers">
+        </div> */}
+
+        {/* <div className="offers">
           <h1>По низким ценам</h1>
           <h2>Скидки от 5% до 75%</h2>
-        </div>
+        </div> */}
       </div>
     </div>
   );
