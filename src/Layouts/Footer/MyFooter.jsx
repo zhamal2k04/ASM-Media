@@ -11,7 +11,7 @@ const MyFooter = () => {
         <li>
             <Link>
                 <h1>Наши Сервисы</h1>
-                <hr style={{border:'1px solid white'}}/>
+                <hr style={{border:'1px solid white'}} id='firstHr'/>
             </Link>
         </li>
         <li>
