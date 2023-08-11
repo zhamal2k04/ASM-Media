@@ -94,7 +94,7 @@ const ServiceComponent = () => {
           </div>
         </div>
         
-        {/* <div className="cardsHolder">
+        <div className="cardsHolder">
           <div className="cardRow">
             <h1>
               Баннеры
@@ -108,7 +108,7 @@ const ServiceComponent = () => {
             <img src={radio} alt="/" />
           </div>
           <div className="cardRow">
-            <h1 style={{ fontSize: "18px" }}>
+            <h1>
               Снимать
               <br />
               профессиональные
@@ -116,12 +116,12 @@ const ServiceComponent = () => {
             </h1>
             <img src={cinema} alt="/" />
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="offers">
+        <div className="offers">
           <h1>По низким ценам</h1>
           <h2>Скидки от 5% до 75%</h2>
-        </div> */}
+        </div>
       </div>
     </div>
   );

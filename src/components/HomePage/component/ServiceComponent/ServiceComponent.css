@@ -167,6 +167,9 @@
 .channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > h1 {
   margin-top: 50px;
 }
+.channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > h1 {
+  font-size: 18px;
+}
 
 .offers {
   width: 100%;
@@ -201,9 +204,9 @@
   .serviceComponent-container {
     margin-top: 0px;
     width: 100%;
-    height: 1600px;
- /*    background-color: red; */
- background-color: #000;
+    height: 2900px;
+    background-color: red;
+    /*    background-color: #000; */
   }
   .serviceTitle {
     margin-top: 10px;
@@ -212,32 +215,41 @@
     gap: 7px;
   }
   .serviceTitle > h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .serviceTitle > h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .serviceTitle > h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
-  .serviceChannels{
+  .serviceChannels {
     margin-top: 10px;
     width: 100%;
     height: 400px;
   }
-  .rowImgs{
+  .rowImgs {
     width: 100%;
     height: 100px;
     flex-wrap: wrap;
     margin-top: 20px;
     gap: 10px;
   }
-  .rowImgs>img{
+  .rowImgs > img {
     width: 130px;
     height: 100px;
   }
 
-  .cardsHolder{
+  .channelsCards {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 1rem;
+  }
+
+  .cardsHolder {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -245,47 +257,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
-  .channelsCards{
-    width: 100%;
-    height: 100%;
-/*     background-color: green; */
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 0;
-
-  }
-  .cardRow{
+  .cardRow {
     width: 250px;
     height: 250px;
   }
 
-  .cardRow>img{
+  .cardRow > img {
     width: 90px;
     height: 90px;
     left: 80px;
   }
 
-  #third{
+  #third {
     width: 100px;
     height: 60px;
     left: 75px;
   }
 
-  .cardRow>h1{
-    font-size: 16px;
+  .cardRow > h1 {
+    font-size: 14px;
   }
 
-  .channelsCards > .cardsHolder:nth-child(2)>.cardRow:nth-child(1)>img{
+  .channelsCards > .cardsHolder:nth-child(2) > .cardRow:nth-child(1) > img {
     width: 120px;
     height: 80px;
     left: 67px;
   }
 
-  .channelsCards > .cardsHolder:nth-child(2)>.cardRow:nth-child(3)>img{
+  .channelsCards > .cardsHolder:nth-child(2) > .cardRow:nth-child(3) > img {
     width: 90px;
     height: 80px;
+  }
+
+  .channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > h1 {
+    font-size: 12px;
+  }
+  .channelsCards > .cardsHolder:nth-child(3) > .cardRow:nth-child(3) > img {
+    bottom: 13px;
+  }
+  .offers {
+    margin-top: 14px;
+    width: 100%;
+    height: 130px;
+  }
+  .offers > h1 {
+    font-size: 33px;
+  }
+  .offers > h2 {
+    font-size: 20px;
   }
 }
