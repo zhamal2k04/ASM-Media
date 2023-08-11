@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adsCards-container{
+    width: 100%;
+}
+
+#aboutPage-adsContainer{
+    margin-top: 260px;
+}

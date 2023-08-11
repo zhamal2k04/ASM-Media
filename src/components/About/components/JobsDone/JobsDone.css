@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jobsDone-container {
+  width: 100%;
+  height: 300px;
+  background-color: #112;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+.RowCard {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.RowCard > h1 {
+  color: #fff;
+  font-family: "Abhaya Libre";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-bottom: 1px solid white;
+}
+
+.RowCard > p {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media (max-width: 414px) {
+  .jobsDone-container {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    gap: 5px;
+  }
+  .RowCard {
+    padding-top: 10px;
+    width: 200px;
+    height: 100%;
+  }
+  .RowCard > h1 {
+    font-size: 20px;
+  }
+  .RowCard > p {
+    font-size: 18px;
+  }
+}

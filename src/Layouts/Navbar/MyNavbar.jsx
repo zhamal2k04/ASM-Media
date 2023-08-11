@@ -30,7 +30,7 @@ const MyNavbar = () => {
 
         <ul>
           <Link to={'/home'}>Home</Link>
-          <Link to={'/about'}>About</Link>
+          <Link to={'/about-us'}>About</Link>
           <Link to={'/portfolio'}>Portfolio</Link>
           <Link to={'/contacts'}>Contacts</Link>
         </ul>
