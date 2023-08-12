@@ -50,7 +50,7 @@
 
 @media (max-width: 414px) {
   .portfolioLowerCard-container {
-    margin-top: 0px;
+    margin-top: 20px;
     width: 100%;
     height: 400px;
     gap: 10px;
@@ -60,6 +60,7 @@
     height: 170px;
   }
   .portfolioLowerTitle {
+    margin-top: 50px;
     height: 200px;
   }
   .portfolioLowerTitle > h1 {

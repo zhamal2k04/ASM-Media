@@ -11,3 +11,8 @@
 #aboutPage-adsContainer{
     margin-top: 260px;
 }
+
+#aboutPage-channelCards{
+    position: relative;
+    bottom: 140px;
+}

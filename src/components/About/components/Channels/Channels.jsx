@@ -13,7 +13,7 @@ import kinoteatr from "../../../../Assets/Images/kinoteatr.jpg";
 
 const Channels = () => {
   return (
-    <div className='channels-container'>
+    <div className='channels-container' id='aboutPage-channels'>
         <div className="serviceChannels">
         <div className="rowImgs">
           <img src={kinoteatr} alt="/" />

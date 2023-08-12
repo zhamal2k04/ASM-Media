@@ -48,6 +48,8 @@
 
 @media (max-width: 414px) {
   .jobsDone-container {
+    position: relative;
+    top: 100px;
     width: 100%;
     height: 100px;
     padding: 0;

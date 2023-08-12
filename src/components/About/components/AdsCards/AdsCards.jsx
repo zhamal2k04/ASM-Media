@@ -13,7 +13,7 @@ import cinema from "../../../../Assets/Images/cinema.png";
 const AdsCards = () => {
   return (
     <div className="adsCards-container" id="aboutPage-adsContainer">
-      <div className="channelsCards">
+      <div className="channelsCards" id="aboutPage-channelCards">
         <div className="cardsHolder">
           <div className="cardRow">
             <h1>
