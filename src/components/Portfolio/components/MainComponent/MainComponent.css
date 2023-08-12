@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolioMainComponent-container {
+  width: 100%;
+  height: 750px;
+}
+
+.portfolioMainComponent-container > video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 414px) {
+  /*CSS rules for iPhone 6 Plus/6S Plus/7 Plus/8 Plus */
+  .portfolioMainComponent-container {
+    width: 100%;
+    height: 200px;
+  }
+}

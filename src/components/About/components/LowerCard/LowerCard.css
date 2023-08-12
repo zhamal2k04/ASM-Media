@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
-  bottom: 50px;
+  bottom: 100px;
 }
 
 .lowerCard-bgImg {

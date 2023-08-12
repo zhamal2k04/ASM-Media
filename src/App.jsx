@@ -4,6 +4,7 @@ import MyLayout from './Layouts/MyLayout/MyLayout';
 import HomePage from './components/HomePage/container/HomePage';
 import Contacts from './components/Contacts/container/Contacts';
 import AboutPage from './components/About/container/AboutPage';
+import PortfolioPage from './components/Portfolio/container/PortfolioPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/home' element={<HomePage/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path='/about-us' element={<AboutPage/>}/>
+          <Route path='/portfolio' element={<PortfolioPage/>}/>
         </Routes>
       </MyLayout>
     </div>

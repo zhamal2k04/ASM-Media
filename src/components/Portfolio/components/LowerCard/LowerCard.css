@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolioLowerCard-container {
+  margin-top: 130px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.lowerBg-img {
+  width: 100%;
+  height: 550px;
+  background-image: url("../../../../Assets/Images/bg_lowerIMg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolioLowerTitle {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.portfolioLowerTitle > h1 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.portfolioLowerTitle > p {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#submit {
+  margin-top: 24px;
+}
+
+@media (max-width: 414px) {
+  .portfolioLowerCard-container {
+    margin-top: 0px;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+  }
+  .lowerBg-img {
+    width: 100%;
+    height: 170px;
+  }
+  .portfolioLowerTitle {
+    height: 200px;
+  }
+  .portfolioLowerTitle > h1 {
+    font-size: 25px;
+  }
+  .portfolioLowerTitle > p {
+    font-size: 15px;
+  }
+  #submit {
+    margin-top: 10px;
+    height: 40px;
+  }
+}
