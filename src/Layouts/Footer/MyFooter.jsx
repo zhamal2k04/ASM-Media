@@ -67,35 +67,35 @@ const MyFooter = () => {
             </Link>
         </li>
         <li>
-            <Link>
+            <Link to={"/home"} target='_blank'>
                 <p>
                     » Главная
                 </p>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link to={"/about-us"} target='_blank'>
                 <p>
                     » О нас
                 </p>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link to={"/portfolio"} target='_blank'>
                 <p>
                     » Портфолио
                 </p>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link to={"https://yandex.uz/maps/10335/tashkent/house/YkAYdARhQUYPQFprfX52cHtkZw==/?ll=69.231838%2C41.271773&z=17.15"} target='_blank'>
                 <p>
                     » Локация
                 </p>
             </Link>
         </li>
         <li>
-            <Link>
+            <Link to={"/contacts"} target='_blank'>
                 <p>
                     » Контакты
                 </p>
