@@ -1,5 +1,3 @@
-// server.js
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -22,7 +20,6 @@ app.post("/api/sign_up", (req, res) => {
   var name = req.body.name;
   var email = req.body.email;
   var phno = req.body.phno;
-  var password = req.body.password;
 
   var data = {
     name: name,
@@ -38,7 +35,7 @@ app.post("/api/sign_up", (req, res) => {
     console.log("Record Inserted Successfully");
   });
 
-  return res.redirect("signup_success.html");
+  return res.send(200)
 });
 
 app.listen(3000, () => {
