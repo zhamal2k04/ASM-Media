@@ -1,49 +1,77 @@
-import React from 'react'
-import "./ContactUs.css"
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useState } from 'react';
+import "./ContactUs.css"
 
-const ContactUs = () => {
+function ContactUs() {
+  const [users, setUsers] = useState([]);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phno, setPhno] = useState("");
-  const [message, setMessage] = useState("");
+  useEffect(() => {
+    axios.get('http://localhost:3001/getUsers')
+      .then(response => setUsers(response.data))
+      .catch(err => console.log(err));
+  }, []);
 
-  const handleSignUp = async () => {
+  const handleSignUp = async (e) => {
+    e.preventDefault();
     try {
-      const response = await axios.post("/api/sign_up", {
+      const response = await axios.post('http://localhost:3001/register', {
         name,
         email,
-        phno,
+        phone,
       });
-      setMessage(response.data.message);
+      console.log(response.data.message); // Выводим сообщение в консоль
+  
+      // Обновляем состояние users после успешной регистрации
+      setUsers([...users, { name, email, phone }]);
+  
+      // Сбрасываем введенные значения
+      setName('');
+      setEmail('');
+      setPhone('');
     } catch (error) {
-      setMessage("Произошла ошибка при регистрации");
+      console.error('Произошла ошибка при регистрации', error);
     }
   };
-  
+
   return (
-
-
-
     <div className='contactUs-container'>
-        <div className="contactUs-bg-Img"></div>
-        <div className="contactUs-form">
-        <form action="/sign_up" method="POST">
-                <h2>Please leave your contacts</h2>
-                <input type="text" onChange={(e) => setName(e.target.value)} class="box" id="name" name="name" placeholder="Введите ваше имя" required />
-                <br />
-                <input type="text" onChange={(e) => setEmail(e.target.value)} class="box" id="email" name="email" placeholder="Введите почту" required />
-                <br />
-                <input type="text" onChange={(e) => setPhno(e.target.value)} class="box" id="phno" name="phno" placeholder="Введите тел номер" required />
-                <br />
-                <input type="submit" onClick={handleSignUp} value="Submit" id="submitBtn" />
-                <p>{message}</p>
+
+    <div className="contactUs-bg-Img"></div>
+
+      <div className='contactUs-form'>
+        <form onSubmit={handleSignUp}>
+        <h2>Please leave us your Contacts</h2>
+          <input
+            type='text'
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+            placeholder='Введите ваше имя'
+            id='name'
+          />
+          <input
+            type='text'
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            placeholder='Введите вашу почту'
+            id='email'
+          />
+          <input
+            type='text'
+            onChange={(e) => setPhone(e.target.value)}
+            value={phone}
+            placeholder='Введите тел номер'
+            id='phone'
+          />
+          <button type='submit' id='submitBtn'>
+            Send
+          </button>
         </form>
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default ContactUs
+export default ContactUs;

@@ -38,7 +38,7 @@
 .contactUs-form > form {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 30px;
 }
 
 .contactUs-form > form > h2 {
@@ -54,8 +54,7 @@
 
 #name,
 #email,
-#phno,
-#password {
+#phone {
   width: 400px;
   height: 70px;
   padding-left: 1rem;
@@ -73,6 +72,7 @@
   background: #a71313;
   outline: none;
   border: none;
+  font-family: "Abhaya Libre", sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: x-large;
@@ -98,12 +98,11 @@
     padding: 1rem;
   }
   .contactUs-form > form {
-    gap: 0px;
+    gap: 10px;
   }
   #name,
   #email,
-  #phno,
-  #password {
+  #phone {
     width: 180px;
     height: 30px;
     font-size: 11px;
