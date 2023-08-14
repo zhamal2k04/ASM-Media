@@ -46,7 +46,7 @@
   gap: 32px;
 }
 
-.section > ol > li>a {
+.section > ol > li > a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,14 +54,14 @@
   text-decoration: none;
 }
 
-.section > ol > li >a> img {
+.section > ol > li > a > img {
   width: 30px;
   height: 30px;
 }
 
-.section > ol > li >a> p {
+.section > ol > li > a > p {
   color: #fff;
-  font-family: 'Katibeh', cursive;
+  font-family: "Katibeh", cursive;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +125,7 @@
     flex-direction: column;
     gap: 10px;
   }
-  .section > ol > li>a {
+  .section > ol > li > a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,16 +133,83 @@
     gap: 4px;
     text-decoration: none;
   }
-  .section > ol > li >a> img {
+  .section > ol > li > a > img {
     width: 20px;
     height: 20px;
   }
-  .section > ol > li >a> p {
+  .section > ol > li > a > p {
     margin-top: 0px;
     text-decoration: none;
     color: #fff;
-    font-family: 'Katibeh', cursive;
+    font-family: "Katibeh", cursive;
     font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 428px) {
+  .nav-container {
+    width: 100%;
+  }
+
+  .nav-container > a > img {
+    width: 120px;
+    height: 100px;
+  }
+  .section > ul {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .section > ul > a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Abril Fatface", cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .section {
+    width: 200px;
+    height: 100%;
+    /*     background-color: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .section > ol {
+    width: 100px;
+    height: 100%;
+    /*     background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section > ol > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+  }
+  .section > ol > li > a > img {
+    width: 20px;
+    height: 20px;
+  }
+  .section > ol > li > a > p {
+    margin-top: 0px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Katibeh", cursive;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

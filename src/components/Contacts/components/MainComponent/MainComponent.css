@@ -47,3 +47,23 @@
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 428px) {
+  .mainComponent-container {
+    width: 100%;
+    height: 270px;
+    background-image: url("../../../../Assets/Images/bg-main.png");
+    background-size: cover;
+    padding: 1rem;
+  }
+  .mainComponent-container > h1 {
+    text-align: left;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}

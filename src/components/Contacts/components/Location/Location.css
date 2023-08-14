@@ -116,3 +116,58 @@
     bottom: 10px;
   }
 }
+
+@media (max-width: 428px) {
+  .location-container {
+    width: 100%;
+    height: 300px;
+  }
+
+  .locationDivsHandler {
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .leftLocation-Div,
+  .rightLocation-Div {
+    width: 300px;
+    height: 100px;
+    background-image: url("../../../../Assets/Images/Rectangle\ 66.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .leftLocation-Div > img,
+  .rightLocation-Div > img {
+    width: 50px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .leftLocation-Div > h1,
+  .rightLocation-Div > h1 {
+    font-size: 14px;
+    font-family: "Abhaya Libre" sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+  }
+  .leftLocation-Div > p,
+  .rightLocation-Div > p {
+    font-size: 12px;
+    font-family: "Abhaya Libre", sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 10px;
+  }
+}

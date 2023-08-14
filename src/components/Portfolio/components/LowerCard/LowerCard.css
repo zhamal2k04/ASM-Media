@@ -25,6 +25,10 @@
   width: 100%;
   height: 400px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolioLowerTitle > h1 {
@@ -68,6 +72,34 @@
   }
   .portfolioLowerTitle > p {
     font-size: 15px;
+  }
+  #submit {
+    margin-top: 10px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 428px) {
+  .portfolioLowerCard-container {
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+  }
+  .lowerBg-img {
+    width: 100%;
+    height: 170px;
+  }
+  .portfolioLowerTitle {
+    margin-top: 50px;
+    height: 200px;
+    gap: 5px;
+  }
+  .portfolioLowerTitle > h1 {
+    font-size: 25px;
+  }
+  .portfolioLowerTitle > p {
+    font-size: 13px;
   }
   #submit {
     margin-top: 10px;

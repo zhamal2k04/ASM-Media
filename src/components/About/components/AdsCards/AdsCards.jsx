@@ -44,7 +44,7 @@ const AdsCards = () => {
         <div className="cardsHolder">
           <div className="cardRow">
             <h1>Наружные</h1>
-            <img src={banner} alt="/" />
+            <img src={banner} id="banner" alt="/" />
           </div>
           <div className="cardRow">
             <h1>

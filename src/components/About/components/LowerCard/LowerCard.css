@@ -96,3 +96,32 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 428px) {
+  .lowerCard-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 350px;
+  }
+  .lowerCard-bgImg {
+    width: 100%;
+    height: 220px;
+  }
+  .lowerCard-content {
+    padding-top: 1rem;
+    width: 100%;
+    height: 220px;
+    gap: 1rem;
+  }
+  .lowerCard-content > h1 {
+    font-size: 25px;
+  }
+  .lowerCard-content > p {
+    font-size: 15px;
+  }
+  #submit {
+    width: 200px;
+    height: 45px;
+    font-size: 13px;
+  }
+}
