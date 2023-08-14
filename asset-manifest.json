@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ASM-Media/static/css/main.ceda1bfb.css",
+    "main.css": "/ASM-Media/static/css/main.3f14f3e6.css",
     "main.js": "/ASM-Media/static/js/main.fe138e56.js",
     "static/media/center-image.png": "/ASM-Media/static/media/center-image.4e7d9e598512c6caea7a.png",
     "static/media/bg-video.mp4": "/ASM-Media/static/media/bg-video.e38974f36f27bb578513.mp4",
@@ -38,11 +38,11 @@
     "static/media/yoshlar.jpg": "/ASM-Media/static/media/yoshlar.9fd555aa6a0aa125ff6f.jpg",
     "static/media/geoLoc.png": "/ASM-Media/static/media/geoLoc.a240b7d6aa675e70be92.png",
     "index.html": "/ASM-Media/index.html",
-    "main.ceda1bfb.css.map": "/ASM-Media/static/css/main.ceda1bfb.css.map",
+    "main.3f14f3e6.css.map": "/ASM-Media/static/css/main.3f14f3e6.css.map",
     "main.fe138e56.js.map": "/ASM-Media/static/js/main.fe138e56.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceda1bfb.css",
+    "static/css/main.3f14f3e6.css",
     "static/js/main.fe138e56.js"
   ]
 }
