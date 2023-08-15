@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/ASM-Media/static/css/main.fed695f5.css",
-    "main.js": "/ASM-Media/static/js/main.3c213dab.js",
+    "main.css": "/ASM-Media/static/css/main.d666f1a3.css",
+    "main.js": "/ASM-Media/static/js/main.a88fcd9a.js",
     "static/media/zortv_bg.mp4": "/ASM-Media/static/media/zortv_bg.dc8607151589d0465d7d.mp4",
     "static/media/my5_bg.mp4": "/ASM-Media/static/media/my5_bg.31a3a05fc73bc29bab2a.mp4",
+    "static/media/center-image.png": "/ASM-Media/static/media/center-image.a30aaf12e2ccec714d14.png",
     "static/media/sevimli_bg.mp4": "/ASM-Media/static/media/sevimli_bg.1049aa43382051b5b4e5.mp4",
-    "static/media/center-image.png": "/ASM-Media/static/media/center-image.4e7d9e598512c6caea7a.png",
     "static/media/bg-video.mp4": "/ASM-Media/static/media/bg-video.e38974f36f27bb578513.mp4",
     "static/media/bg_lowerIMg.png": "/ASM-Media/static/media/bg_lowerIMg.4e31955bc413d7b78f2f.png",
     "static/media/bg-main.png": "/ASM-Media/static/media/bg-main.35e4d7235f61c60f90c1.png",
     "static/media/lowerCard-bg.png": "/ASM-Media/static/media/lowerCard-bg.4e5009bcf7808241be5d.png",
-    "static/media/contactBg.png": "/ASM-Media/static/media/contactBg.6db0c5a3a54f3a2d5c01.png",
     "static/media/bus.png": "/ASM-Media/static/media/bus.2fb0998f5af4a92daddf.png",
+    "static/media/bg-maincard.png": "/ASM-Media/static/media/bg-maincard.fe84ecb12c5d238215f3.png",
     "static/media/banner2.png": "/ASM-Media/static/media/banner2.06e88679f50e6fb02439.png",
-    "static/media/bg-maincard.png": "/ASM-Media/static/media/bg-maincard.8f1dd2eb662866ab0ec8.png",
     "static/media/banner.png": "/ASM-Media/static/media/banner.9b83578d3480788cf026.png",
     "static/media/led.png": "/ASM-Media/static/media/led.9b3a440eb49422299b3f.png",
     "static/media/radio.png": "/ASM-Media/static/media/radio.0c90e8cd25b59604df43.png",
@@ -47,11 +46,11 @@
     "static/media/yoshlar.jpg": "/ASM-Media/static/media/yoshlar.9fd555aa6a0aa125ff6f.jpg",
     "static/media/geoLoc.png": "/ASM-Media/static/media/geoLoc.a240b7d6aa675e70be92.png",
     "index.html": "/ASM-Media/index.html",
-    "main.fed695f5.css.map": "/ASM-Media/static/css/main.fed695f5.css.map",
-    "main.3c213dab.js.map": "/ASM-Media/static/js/main.3c213dab.js.map"
+    "main.d666f1a3.css.map": "/ASM-Media/static/css/main.d666f1a3.css.map",
+    "main.a88fcd9a.js.map": "/ASM-Media/static/js/main.a88fcd9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fed695f5.css",
-    "static/js/main.3c213dab.js"
+    "static/css/main.d666f1a3.css",
+    "static/js/main.a88fcd9a.js"
   ]
 }
