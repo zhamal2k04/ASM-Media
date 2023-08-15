@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#my5_img {
+  height: 170px;
+}
+
+@media (max-width: 414px) {
+  #my5_img {
+    height: 100px;
+  }
+}

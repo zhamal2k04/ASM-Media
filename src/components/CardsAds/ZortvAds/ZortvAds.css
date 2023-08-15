@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.adsCard-container {
+  width: 100%;
+  height: 140vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 2px solid rgba(136, 165, 191, 0.48);
+  border-bottom: 2px solid rgba(136, 165, 191, 0.48);
+}
+
+.adsCard-title > img {
+  width: 240px;
+  height: 240px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.adsCard-title {
+  width: 700px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+.adsCard-title > h1 {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.adsCard-bgVideo {
+  width: 100%;
+  height: 900px;
+}
+
+.adsCard-bgVideo > video {
+  object-fit: cover;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgb(38, 77, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 414px) {
+  .adsCard-container {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+
+  .adsCard-title > img {
+    width: 140px;
+    height: 140px;
+  }
+  .adsCard-title {
+    width: 100%;
+    height: 200px;
+    gap: 22px;
+    padding: 1rem;
+  }
+  .adsCard-title > h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  .adsCard-bgVideo {
+    width: 100%;
+    height: 230px;
+  }
+  .adsCard-bgVideo > video {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+  }
+  .adsCard-bgVideo > .video {
+    width: 100%;
+    height: 100%;
+  }
+}

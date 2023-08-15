@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const MyNavbar = () => {
   return (
     <div class="nav-container">
-      <Link>
+      <Link to={"/home"}>
         <img src={nav_logo} alt="/" />
       </Link>
       <div class="section">
