@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/ASM-Media/static/css/main.3f14f3e6.css",
-    "main.js": "/ASM-Media/static/js/main.fe138e56.js",
+    "main.css": "/ASM-Media/static/css/main.fed695f5.css",
+    "main.js": "/ASM-Media/static/js/main.3c213dab.js",
+    "static/media/zortv_bg.mp4": "/ASM-Media/static/media/zortv_bg.dc8607151589d0465d7d.mp4",
+    "static/media/my5_bg.mp4": "/ASM-Media/static/media/my5_bg.31a3a05fc73bc29bab2a.mp4",
+    "static/media/sevimli_bg.mp4": "/ASM-Media/static/media/sevimli_bg.1049aa43382051b5b4e5.mp4",
     "static/media/center-image.png": "/ASM-Media/static/media/center-image.4e7d9e598512c6caea7a.png",
     "static/media/bg-video.mp4": "/ASM-Media/static/media/bg-video.e38974f36f27bb578513.mp4",
     "static/media/bg_lowerIMg.png": "/ASM-Media/static/media/bg_lowerIMg.4e31955bc413d7b78f2f.png",
@@ -15,13 +18,19 @@
     "static/media/led.png": "/ASM-Media/static/media/led.9b3a440eb49422299b3f.png",
     "static/media/radio.png": "/ASM-Media/static/media/radio.0c90e8cd25b59604df43.png",
     "static/media/telegram.png": "/ASM-Media/static/media/telegram.7ab76d2c31ddb384258a.png",
+    "static/media/banner_bg.jpg": "/ASM-Media/static/media/banner_bg.52877af099d4098a80dc.jpg",
+    "static/media/busAds-img.jpg": "/ASM-Media/static/media/busAds-img.01939f1e124af5033ee0.jpg",
     "static/media/metroAds5.jpg": "/ASM-Media/static/media/metroAds5.bb2ac18cb3974c2be2ce.jpg",
     "static/media/busAds3.jpg": "/ASM-Media/static/media/busAds3.a76b2e1c15455d9bee76.jpg",
+    "static/media/videoAds_bg.jpg": "/ASM-Media/static/media/videoAds_bg.cbb1fcbdbe99ec5622e7.jpg",
     "static/media/metroAds4.jpg": "/ASM-Media/static/media/metroAds4.4269b14403b7eba20269.jpg",
+    "static/media/ledAds_bg.jpg": "/ASM-Media/static/media/ledAds_bg.d29d148c9a4fc6cdb628.jpg",
     "static/media/my5.png": "/ASM-Media/static/media/my5.466e0683169068a30a5c.png",
     "static/media/metroAds3.jpg": "/ASM-Media/static/media/metroAds3.1e5cc508ddeb8a2eee2a.jpg",
     "static/media/metroAds2.jpg": "/ASM-Media/static/media/metroAds2.1bcf8548349d013c1515.jpg",
+    "static/media/outdoorAds.jpg": "/ASM-Media/static/media/outdoorAds.344db35d3581ac3fa016.jpg",
     "static/media/metroAds.jpg": "/ASM-Media/static/media/metroAds.e4dd121275ed9237a0cb.jpg",
+    "static/media/radio_bg.jpg": "/ASM-Media/static/media/radio_bg.ffe0663573fd7d5f70dd.jpg",
     "static/media/busAds2.jpg": "/ASM-Media/static/media/busAds2.4077980b9299ef9158d0.jpg",
     "static/media/zortv.png": "/ASM-Media/static/media/zortv.a94e4783075d9b3ebc46.png",
     "static/media/metroADs6.jpg": "/ASM-Media/static/media/metroADs6.0bd49ff823864319e722.jpg",
@@ -38,11 +47,11 @@
     "static/media/yoshlar.jpg": "/ASM-Media/static/media/yoshlar.9fd555aa6a0aa125ff6f.jpg",
     "static/media/geoLoc.png": "/ASM-Media/static/media/geoLoc.a240b7d6aa675e70be92.png",
     "index.html": "/ASM-Media/index.html",
-    "main.3f14f3e6.css.map": "/ASM-Media/static/css/main.3f14f3e6.css.map",
-    "main.fe138e56.js.map": "/ASM-Media/static/js/main.fe138e56.js.map"
+    "main.fed695f5.css.map": "/ASM-Media/static/css/main.fed695f5.css.map",
+    "main.3c213dab.js.map": "/ASM-Media/static/js/main.3c213dab.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f14f3e6.css",
-    "static/js/main.fe138e56.js"
+    "static/css/main.fed695f5.css",
+    "static/js/main.3c213dab.js"
   ]
 }
