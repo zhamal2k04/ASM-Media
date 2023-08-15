@@ -92,3 +92,49 @@
     height: 100%;
   }
 }
+
+@media (max-width: 428px) {
+  .adsCard-container {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+
+  .adsCard-title > img {
+    width: 140px;
+    height: 140px;
+  }
+  .adsCard-title {
+    width: 100%;
+    height: 200px;
+    gap: 22px;
+    padding: 1rem;
+  }
+  .adsCard-title > h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  .adsCard-bgVideo {
+    width: 100%;
+    height: 230px;
+  }
+  .adsCard-bgVideo > video {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+  }
+  .adsCard-bgVideo > .video {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:390px) {
+  .adsCard-bgVideo{
+    height: 220px;
+  }
+}

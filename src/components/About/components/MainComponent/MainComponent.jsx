@@ -6,7 +6,6 @@ const MainComponent = () => {
     <div className="mainComp-container">
       <div className="aboutPage-Title">
         <h1>About Us</h1>
-
         <h2>
           Это команда профессионалов со значительным опытом в области рекламы.
         </h2>

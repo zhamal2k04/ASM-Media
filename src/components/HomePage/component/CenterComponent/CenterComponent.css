@@ -81,8 +81,12 @@
   }
   .centerTitle,
   .centerSubTitle {
-    width: 65%;
-    height: 270px;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .centerTitle > h1 {
     color: #fff;
@@ -91,9 +95,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
-    text-align: left;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
   }
   .centerSubTitle > ul {
     display: flex;
@@ -109,8 +112,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -129,8 +131,12 @@
   }
   .centerTitle,
   .centerSubTitle {
-    width: 65%;
+    width: 100%;
     height: 270px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .centerTitle > h1 {
     color: #fff;
@@ -139,9 +145,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
-    text-align: left;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
   }
   .centerSubTitle > ul {
     display: flex;
@@ -157,8 +162,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -169,7 +173,12 @@
   }
   .centerTitle,
   .centerSubTitle {
-    width: 79%;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .centerTitle > h1 {
     font-size: 25px;
