@@ -117,7 +117,7 @@ const MyFooter = () => {
             <h2>Узбекистан, Ташкент<br/>улица Богибустон 186</h2>
         </li>
         <li>
-            <p>@m_azizaas</p>
+            <Link to={"https://www.instagram.com/asm_media_uzb/"} target='_blank'>@asm_media_uzb</Link>
         </li>
     </ul>
 </div>

@@ -48,7 +48,7 @@ const ServiceComponent = () => {
 
       <div className="channelsCards">
         <div className="cardsHolder">
-          <Link to={"/zortv"}>
+          <Link to={"/zortv"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -59,7 +59,7 @@ const ServiceComponent = () => {
             </div>
           </Link>
 
-          <Link to={"/sevimlitv"}>
+          <Link to={"/sevimlitv"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -70,7 +70,7 @@ const ServiceComponent = () => {
             </div>
           </Link>
 
-          <Link to={"/my5"}>
+          <Link to={"/my5"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -83,14 +83,14 @@ const ServiceComponent = () => {
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/outdoor-ads"}>
+          <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="/"  />
+              <img src={banner} alt="/" />
             </div>
           </Link>
 
-          <Link to={"/bus-ads"}>
+          <Link to={"/bus-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Автобусы
@@ -101,7 +101,7 @@ const ServiceComponent = () => {
             </div>
           </Link>
 
-          <Link to={"/led-ads"}>
+          <Link to={"/led-ads"} target="_blank">
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
               <img src={led} alt="/" />
@@ -110,7 +110,7 @@ const ServiceComponent = () => {
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/banner-ads"}>
+          <Link to={"/banner-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Баннеры
@@ -121,14 +121,14 @@ const ServiceComponent = () => {
             </div>
           </Link>
 
-          <Link to={"/radio-ads"}>
+          <Link to={"/radio-ads"} target="_blank">
             <div className="cardRow">
               <h1>Радиореклама</h1>
               <img src={radio} alt="/" />
             </div>
           </Link>
 
-          <Link to={"/cinema-ads"}>
+          <Link to={"/cinema-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Снимать

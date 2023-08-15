@@ -82,6 +82,17 @@
   line-height: normal;
 }
 
+.footer-container > ul li > a {
+  text-decoration: none;
+  color: white;
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 @media (max-width: 414px) {
   .footer-container {
     width: 100%;

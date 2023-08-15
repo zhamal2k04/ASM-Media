@@ -17,19 +17,19 @@ const MyNavbar = () => {
           <li>
             <Link to={"https://t.me/asm_media"} target="_blank">
               <img src={telegram} alt="/" />
-              <p>@m_azizaas</p>
+              <p>@asm_media</p>
             </Link>
           </li>
           <li>
             <Link to={"https://instagram.com/asm_media_uzb "} target="_blank">
               <img src={instagram} alt="/" />
-              <p>@m_azizaas</p>
+              <p>@asm_media_uzb</p>
             </Link>
           </li>
           <li>
             <Link to={""}>
               <img src={cell} alt="/" />
-              <p>+998 123 456789</p>
+              <p>+998(33)0700070</p>
             </Link>
           </li>
         </ol>

@@ -14,9 +14,8 @@ const AdsCards = () => {
   return (
     <div className="adsCards-container" id="aboutPage-adsContainer">
       <div className="channelsCards" id="aboutPage-channelCards">
-
         <div className="cardsHolder">
-          <Link to={"/zortv"}>
+          <Link to={"/zortv"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -27,7 +26,7 @@ const AdsCards = () => {
             </div>
           </Link>
 
-          <Link to={"/sevimlitv"}>
+          <Link to={"/sevimlitv"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -38,7 +37,7 @@ const AdsCards = () => {
             </div>
           </Link>
 
-          <Link to={"/my5"}>
+          <Link to={"/my5"} target="_blank">
             <div className="cardRow">
               <h1>
                 Размещение
@@ -51,14 +50,14 @@ const AdsCards = () => {
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/outdoor-ads"}>
+          <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
               <img src={banner} alt="/" id="banner" />
             </div>
           </Link>
 
-          <Link to={"/bus-ads"}>
+          <Link to={"/bus-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Автобусы
@@ -69,7 +68,7 @@ const AdsCards = () => {
             </div>
           </Link>
 
-          <Link to={"/led-ads"}>
+          <Link to={"/led-ads"} target="_blank">
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
               <img src={led} alt="/" />
@@ -78,7 +77,7 @@ const AdsCards = () => {
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/banner-ads"}>
+          <Link to={"/banner-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Баннеры
@@ -89,14 +88,14 @@ const AdsCards = () => {
             </div>
           </Link>
 
-          <Link to={"/radio-ads"}>
+          <Link to={"/radio-ads"} target="_blank">
             <div className="cardRow">
               <h1>Радиореклама</h1>
               <img src={radio} alt="/" />
             </div>
           </Link>
 
-          <Link to={"/cinema-ads"}>
+          <Link to={"/cinema-ads"} target="_blank">
             <div className="cardRow">
               <h1>
                 Снимать
@@ -108,9 +107,7 @@ const AdsCards = () => {
             </div>
           </Link>
         </div>
-
       </div>
-      
     </div>
   );
 };
