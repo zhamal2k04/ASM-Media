@@ -66,6 +66,54 @@
     0 0 30px rgba(255, 255, 255, 0.8);
 }
 
+@media (max-width: 428px) {
+  .centerComponent-container {
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+  }
+  .centerTitle,
+  .centerSubTitle {
+    width: 65%;
+    height: 270px;
+  }
+  .centerTitle > h1 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  .centerSubTitle > ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  .centerSubTitle ul > li {
+    margin-top: 13px;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+}
+
 @media (max-width: 414px) {
   .centerComponent-container {
     margin-top: 0px;
@@ -114,50 +162,16 @@
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 375px) {
   .centerComponent-container {
-    margin-top: 0px;
-    width: 100%;
-    height: 600px;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 10px;
-    padding: 1rem;
+    gap: inherit;
+    height: 650px;
   }
   .centerTitle,
   .centerSubTitle {
-    width: 65%;
-    height: 270px;
+    width: 79%;
   }
   .centerTitle > h1 {
-    color: #fff;
-    font-family: "Abhaya Libre", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-align: left;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
-  }
-  .centerSubTitle > ul {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 5px;
-  }
-  .centerSubTitle ul > li {
-    margin-top: 13px;
-    color: #fff;
-    font-family: "Abhaya Libre", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-      0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    font-size: 25px;
   }
 }

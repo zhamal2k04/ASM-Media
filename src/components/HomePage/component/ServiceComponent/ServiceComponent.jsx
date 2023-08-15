@@ -86,7 +86,7 @@ const ServiceComponent = () => {
           <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="/" />
+              <img src={banner} alt="/" id="banner"/>
             </div>
           </Link>
 
