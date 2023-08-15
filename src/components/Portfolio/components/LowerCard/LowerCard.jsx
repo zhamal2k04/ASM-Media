@@ -1,5 +1,6 @@
 import React from "react";
 import "./LowerCard.css";
+import { Link } from "react-router-dom";
 
 const LowerCard = () => {
   return (
@@ -11,7 +12,9 @@ const LowerCard = () => {
           Если вы хотите работать с нами или хотите узнать больше о том, что мы
           делаем, мы будем рады пообщаться с вами
         </p>
-        <input type="submit" value={"Связаться"} id="submit"/>
+        <Link to={"https://t.me/asm_media"} target="_blank">
+          <input type="submit" value={"Связаться"} id="submit" />
+        </Link>
       </div>
     </div>
   );
