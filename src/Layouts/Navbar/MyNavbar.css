@@ -54,6 +54,16 @@
   text-decoration: none;
 }
 
+.section > ol > li > a > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Katibeh", cursive;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .section > ol > li > a > img {
   width: 30px;
   height: 30px;

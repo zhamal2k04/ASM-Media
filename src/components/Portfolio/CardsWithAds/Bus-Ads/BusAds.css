@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bus-ads {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+.AdsImagesHandler {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: inherit;
+}
+.rowAdsImgs {
+  width: 800px;
+  height: 500px;
+  background-color: gold;
+  border-radius: 15px;
+}
+.rowAdsImgs > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: rgb(38, 77, 77) 0px 20px 30px -10px;
+}
+
+@media (max-width: 414px) {
+  #bus-ads {
+    padding-top: inherit;
+    height: 340vh;
+    gap: inherit;
+    justify-content: center;
+  }
+  .AdsImagesHandler {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .rowAdsImgs {
+    width: 100%;
+    height: 330px;
+  }
+  .rowAdsImgs > img {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 428px) {
+  #bus-ads {
+    padding-top: inherit;
+    height: 300vh;
+    gap: inherit;
+    justify-content: center;
+  }
+  .AdsImagesHandler {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .rowAdsImgs {
+    width: 100%;
+    height: 330px;
+  }
+  .rowAdsImgs > img {
+    border-radius: 10px;
+  }
+}
+@media (max-width: 375px) {
+  #bus-ads {
+    height: 240vh;
+  }
+  .rowAdsImgs {
+    height: 280px;
+  }
+}

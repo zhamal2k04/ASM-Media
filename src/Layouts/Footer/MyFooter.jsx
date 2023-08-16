@@ -109,9 +109,9 @@ const MyFooter = () => {
                 <hr style={{border:'1px solid white'}}/>
             </Link>
         </li>
-        <li>
-            <p>+998(33)0700070</p>
-            <p>+998(33)0700070</p>
+        <li style={{display:'flex', flexDirection:'column'}}>
+            <a href='tel:+998330700070'>+998(33)0700070</a>
+            <a href='tel:+998330700070'>+998(33)0700070</a>
         </li>
         <li>
             <h2>Узбекистан, Ташкент<br/>улица Богибустон 186</h2>

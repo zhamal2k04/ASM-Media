@@ -1,14 +1,13 @@
 import React from 'react'
 import "./PortfolioCards.css"
-import busAds from "../../../../Assets/Images/busAds.jpg"
-import busAds2 from "../../../../Assets/Images/busAds2.jpg"
-import busAds3 from "../../../../Assets/Images/busAds3.jpg"
-import metroAds from "../../../../Assets/Images/metroAds.jpg"
-import metroAds2 from "../../../../Assets/Images/metroAds2.jpg"
-import metroAds3 from "../../../../Assets/Images/metroAds3.jpg"
-import metroAds4 from "../../../../Assets/Images/metroAds4.jpg"
-import metroAds5 from "../../../../Assets/Images/metroAds5.jpg"
-import metroAds6 from "../../../../Assets/Images/metroADs6.jpg"
+import bannerAds from "../../../../Assets/Images/banner_portfolio.jpg"
+import videoAds from "../../../../Assets/Images/video_portfolio.jpg"
+import ledAds from "../../../../Assets/Images/led_portfolio.jpg"
+import busAds from "../../../../Assets/Images/bus_portfolio.jpg"
+import metroAds from "../../../../Assets/Images/metro_portfolio.jpg"
+import metroAds2 from "../../../../Assets/Images/metro_portfolio2.jpg"
+import { Link } from 'react-router-dom'
+
 
 const PortfolioCards = () => {
   return (
@@ -16,37 +15,33 @@ const PortfolioCards = () => {
         <div className="simpleCardHolder">
             <div className="cardsRow">
               <div className="card-img">
-                <img src={busAds} alt="/" />
+                <img src={bannerAds} alt="/" />
+                <Link to={"/ads-banner"}>More »</Link>
               </div>
               <div className="card-img">
-                <img src={busAds2} alt="/" />
+                <img src={videoAds} alt="/" />
+                <Link to={"/ads-video"}>More »</Link>
               </div>
               <div className="card-img">
-                <img src={busAds3} alt="/" />
+                <img src={ledAds} alt="/" />
+                <Link to={"/ads-led"}>More »</Link>
               </div>
             </div>
             <div className="cardsRow">
                 <div className="card-img">
+                    <img src={busAds} alt="/" />
+                    <Link to={"/ads-bus"}>More »</Link>
+                </div>
+                <div className="card-img">
                     <img src={metroAds} alt="/" />
+                    <Link>More »</Link>
                 </div>
                 <div className="card-img">
                     <img src={metroAds2} alt="/" />
-                </div>
-                <div className="card-img">
-                    <img src={metroAds3} alt="/" />
+                    <Link>More »</Link>
                 </div>
             </div>
-            <div className="cardsRow">
-                <div className="card-img">
-                    <img src={metroAds4} alt="/" />
-                </div>
-                <div className="card-img">
-                    <img src={metroAds5} alt="/" />
-                </div>
-                <div className="card-img">
-                    <img src={metroAds6} alt="/" />
-                </div>
-            </div>
+            
         </div>
     </div>
   )

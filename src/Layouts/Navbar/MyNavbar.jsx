@@ -29,7 +29,7 @@ const MyNavbar = () => {
           <li>
             <Link to={""}>
               <img src={cell} alt="/" />
-              <p>+998(33)0700070</p>
+              <a href="tel:+998330700070">+998(33)0700070</a>
             </Link>
           </li>
         </ol>

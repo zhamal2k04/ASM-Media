@@ -64,7 +64,17 @@
 .footer-container > ul > li > p {
   margin-top: 4px;
   text-decoration: none;
-  color: white;
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-container > ul > li > a {
+  margin-top: 4px;
+  text-decoration: none;
   color: #fff;
   font-family: "Abhaya Libre", sans-serif;
   font-size: 22px;

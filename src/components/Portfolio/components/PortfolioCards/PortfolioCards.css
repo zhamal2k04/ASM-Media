@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  padding-top: 4rem;
+  padding-top: 7rem;
   background-color: #000;
 }
 .simpleCardHolder {
@@ -33,34 +33,23 @@
 .card-img {
   width: 580px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
+.card-img > a {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 .card-img > img {
   width: 100%;
   height: 350px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-@media (max-width: 414px) {
-  .portfolioCards-container {
-    padding-top: 0rem;
-    height: 2100px;
-  }
-  .cardsRow {
-    height: 100%;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 13px;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-img {
-    width: 300px;
-    height: 100%;
-  }
-  .card-img > img {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 @media (max-width: 428px) {
@@ -79,6 +68,29 @@
   .card-img {
     width: 300px;
     height: 200px;
+  }
+  .card-img > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .portfolioCards-container {
+    padding-top: 0rem;
+    height: 2100px;
+  }
+  .cardsRow {
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-img {
+    width: 300px;
+    height: 100%;
   }
   .card-img > img {
     width: 100%;

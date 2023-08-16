@@ -14,7 +14,10 @@ import LedAds from './components/CardsAds/LedAds/LedAds';
 import BannerAds from './components/CardsAds/BannerAds/BannerAds';
 import RadioAds from './components/CardsAds/RadioAds/RadioAds';
 import CinemaAds from './components/CardsAds/CinemaAds/CinemaAds';
-
+import Banner_Ads from "./components/Portfolio/CardsWithAds/Banner-Ads/Banner_Ads"
+import VideoAds from './components/Portfolio/CardsWithAds/Video-Ads/Video_Ads';
+import Led_Ads from './components/Portfolio/CardsWithAds/Led-Ads/LedAds';
+import Bus_Ads from './components/Portfolio/CardsWithAds/Bus-Ads/BusAds';
 function App() {
   return (
     <div>
@@ -34,6 +37,10 @@ function App() {
           <Route path='/banner-ads' element={<BannerAds/>}/>
           <Route path='/radio-ads' element={<RadioAds/>}/>
           <Route path='/cinema-ads' element={<CinemaAds/>}/>
+          <Route path='/ads-banner' element={<Banner_Ads/>}/>
+          <Route path='/ads-video' element={<VideoAds/>}/>
+          <Route path='/ads-led' element={<Led_Ads/>}/>
+          <Route path='/ads-bus' element={<Bus_Ads/>}/>
           <Route path="*" element={<h1 style={{color:'blue'}}>404 Forbidden Not Found Page</h1>} />
         </Routes>
       </MyLayout>
