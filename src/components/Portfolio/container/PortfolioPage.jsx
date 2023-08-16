@@ -12,6 +12,8 @@ const PortfolioPage = () => {
         <meta property="og:title" content="Портфолио - Рекламное агентство ASM-Media" />
         <meta property="og:description" content="Посмотрите наши успешные кейсы и примеры работы с клиентами в различных сферах бизнеса." />
         <meta property="og:image" content={og_img} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <MainComponent/>
         <PortfolioCards/>
         <LowerCard/>

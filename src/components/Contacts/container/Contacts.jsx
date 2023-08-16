@@ -13,6 +13,8 @@ const Contacts = () => {
         <meta property="og:title" content="Контакты - Рекламное агентство ASM-Media" />
         <meta property="og:description" content="Свяжитесь с нами для получения бесплатной консультации и обсуждения ваших рекламных потребностей. Мы всегда рады помочь вам!" />
         <meta property="og:image" content={og_img} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <MainComponent/>
         <Location/>
         <LocationCard/>

@@ -14,6 +14,8 @@ const AboutPage = () => {
         <meta property="og:title" content="О нас - Рекламное агентство ASM-Media." />
         <meta property="og:description" content="Узнайте больше о нашей команде и как мы помогаем клиентам достигать успеха в сфере рекламы." />
         <meta property="og:image" content={og_img} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <MainComponent/>
         <JobsDone/>
         <Channels/>

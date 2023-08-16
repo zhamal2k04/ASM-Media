@@ -12,6 +12,8 @@ const HomePage = () => {
         <meta property="og:title" content="Рекламное агентство ASM-Media: Продвигайте свой бизнес с нами. С Нами всегда удобно!" />
         <meta property="og:description" content="Продвигайте свой бизнес с нами. Мы поможем вам рекламировать ваши товары и услуги." />
         <meta property="og:image" content={og_img} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <MainCard/>
         <CenterComponent/>
         <ServiceComponent/>
