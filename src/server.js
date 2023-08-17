@@ -1,43 +1,25 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
+const express = require('express');
+const prerender = require('prerender-node');
 
 const app = express();
 
-app.use(bodyParser.json());
+// Настройте параметры prerender
+prerender.set('prerenderToken', 'XG65PIIbltiuZfIMcVkm');
+prerender.set('prerenderServiceUrl', 'https://service.prerender.io/');
+prerender.set('protocol', 'https');
+prerender.set('host', 'u153022.test-handyhost.ru'); // Измените на ваш новый домен
+prerender.set('port', 3001);
 
-mongoose.connect("mongodb://localhost:27017/mydb", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+// Добавьте prerender как middleware перед вашим обработчиком маршрутов
+app.use(prerender);
+
+// Ваш обработчик маршрутов
+app.get('/', (req, res) => {
+  res.send('Your homepage');
 });
 
-var db = mongoose.connection;
-
-db.on("error", () => console.log("Error in Connecting to Database"));
-db.once("open", () => console.log("Connected to Database"));
-
-app.post("/api/sign_up", (req, res) => {
-  var name = req.body.name;
-  var email = req.body.email;
-  var phno = req.body.phno;
-
-  var data = {
-    name: name,
-    email: email,
-    phno: phno,
-    password: password,
-  };
-
-  db.collection("users").insertOne(data, (err, collection) => {
-    if (err) {
-      throw err;
-    }
-    console.log("Record Inserted Successfully");
-  });
-
-  return res.send(200)
-});
-
-app.listen(3000, () => {
-  console.log("http://localhost:3000");
+// Запуск сервера
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
