@@ -16,19 +16,19 @@ const Channels = () => {
     <div className='channels-container' id='aboutPage-channels'>
         <div className="serviceChannels">
         <div className="rowImgs">
-          <img src={kinoteatr} alt="/" />
-          <img src={toshkent} alt="/" />
-          <img src={sport} alt="/" />
+          <img src={kinoteatr} alt="kinoteatr_pic" />
+          <img src={toshkent} alt="toshkent_pic" />
+          <img src={sport} alt="sport_pic" />
         </div>
         <div className="rowImgs">
-          <img src={mahalla} alt="/" />
-          <img src={ozbekiston24} alt="/" />
-          <img src={yoshlar} alt="/" />
+          <img src={mahalla} alt="mahalla_pic" />
+          <img src={ozbekiston24} alt="ozbekistan24_pic" />
+          <img src={yoshlar} alt="yoshlar_pic" />
         </div>
         <div className="rowImgs">
-          <img src={navo} alt="/" />
-          <img src={oilaviy} alt="/" />
-          <img src={ozbekiston} alt="/" />
+          <img src={navo} alt="navo_pic" />
+          <img src={oilaviy} alt="oilaviy_pic" />
+          <img src={ozbekiston} alt="ozbekiston_pic" />
         </div>
       </div>
     </div>

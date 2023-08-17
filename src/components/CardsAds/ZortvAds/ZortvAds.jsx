@@ -7,7 +7,7 @@ const ZortvAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={zortv} alt="/" />
+        <img src={zortv} alt="ZorTvImg" />
         <h1>Размещение на Зор тв</h1>
       </div>
 

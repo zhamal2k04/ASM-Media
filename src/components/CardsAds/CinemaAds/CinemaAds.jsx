@@ -6,7 +6,7 @@ const CinemaAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={cinema} alt="/" id="cinema-img" />
+        <img src={cinema} alt="CinemaImg" id="cinema-img" />
         <h1 style={{ textAlign: "center" }}>
           Снимать профессиональные видеоролики
         </h1>

@@ -6,7 +6,7 @@ const RadioAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={radio} alt="/" id="radio-img" />
+        <img src={radio} alt="RadioImg" id="radio-img" />
         <h1 style={{ textAlign: "center" }}>Радиореклама</h1>
       </div>
       <div className="adsCard-bgVideo" id="radio-bg"></div>

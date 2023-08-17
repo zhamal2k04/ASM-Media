@@ -6,7 +6,7 @@ const BusAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={bus} alt="/" id="bus-img" />
+        <img src={bus} alt="BusImg" id="bus-img" />
         <h1>Автобусы левых краях</h1>
       </div>
 

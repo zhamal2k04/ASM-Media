@@ -10,25 +10,25 @@ const MyNavbar = () => {
   return (
     <div class="nav-container">
       <Link to={"/home"}>
-        <img src={nav_logo} alt="/" />
+        <img src={nav_logo} alt="nav_logo" />
       </Link>
       <div class="section">
         <ol>
           <li>
             <Link to={"https://t.me/asm_media"} target="_blank">
-              <img src={telegram} alt="/" />
+              <img src={telegram} alt="telegram_logo" />
               <p>@asm_media</p>
             </Link>
           </li>
           <li>
             <Link to={"https://instagram.com/asm_media_uzb "} target="_blank">
-              <img src={instagram} alt="/" />
+              <img src={instagram} alt="instagram_logo" />
               <p>@asm_media_uzb</p>
             </Link>
           </li>
           <li>
             <Link to={""}>
-              <img src={cell} alt="/" />
+              <img src={cell} alt="phone_logo" />
               <a href="#" onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0750070</a>
             </Link>
           </li>

@@ -16,23 +16,23 @@ const Bus_Ads = () => {
                 <img src={busAds} alt="busAdsImg" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds2} alt="busAdsImg" />
+                <img src={busAds2} alt="busAdsImg--2" />
             </div>
         </div>
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
-                <img src={busAds3} alt="busAdsImg" />
+                <img src={busAds3} alt="busAdsImg--3" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds4} alt="busAdsImg" />
+                <img src={busAds4} alt="busAdsImg--4" />
             </div>
         </div>
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
-                <img src={busAds5} alt="busAdsImg" />
+                <img src={busAds5} alt="busAdsImg--5" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds6} alt="busAdsImg" />
+                <img src={busAds6} alt="busAdsImg--6" />
             </div>
         </div>
     </div>

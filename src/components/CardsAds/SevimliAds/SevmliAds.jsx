@@ -7,7 +7,7 @@ const SevmliAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={sevimli} alt="/" />
+        <img src={sevimli} alt="SevimliImg" />
         <h1>Размещение на Зор тв</h1>
       </div>
 

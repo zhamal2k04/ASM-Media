@@ -8,12 +8,12 @@ const Location = () => {
     <div className='location-container'>
        <div className="locationDivsHandler">
                 <div className="leftLocation-Div">
-                    <img src={geoLoc} alt="/" />
+                    <img src={geoLoc} alt="location_pic" />
                     <h1>Наши местоположения</h1>
                     <p>Узбекистан, Ташкент<br/>улица Богибустон 186</p>
                 </div>
                 <div className="rightLocation-Div">
-                    <img src={cellPic} alt="/" />
+                    <img src={cellPic} alt="phone_pic" />
                     <h1>Позвоните нам</h1>
                     <p>+998-33-070-00-70</p>
                     <p>+998-33-070-00-70</p>

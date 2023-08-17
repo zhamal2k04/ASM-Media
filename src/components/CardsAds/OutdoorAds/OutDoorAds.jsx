@@ -6,7 +6,7 @@ const OutDoorAds = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={banner} alt="/" id="outdoorAds-img" />
+        <img src={banner} alt="BannerImg" id="outdoorAds-img" />
         <h1>Наружные Рекламы</h1>
       </div>
 

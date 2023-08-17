@@ -22,7 +22,7 @@ const AdsCards = () => {
                 <br />
                 на Зор тв
               </h1>
-              <img src={zortv} alt="/" />
+              <img src={zortv} alt="zortv_logo" />
             </div>
           </Link>
 
@@ -33,7 +33,7 @@ const AdsCards = () => {
                 <br />
                 на Севимли тв
               </h1>
-              <img src={sevimli} alt="/" />
+              <img src={sevimli} alt="sevimli_logo" />
             </div>
           </Link>
 
@@ -44,7 +44,7 @@ const AdsCards = () => {
                 <br />
                 на My5 тв
               </h1>
-              <img src={my5} alt="/" id="third" />
+              <img src={my5} alt="my5_logo" id="third" />
             </div>
           </Link>
         </div>
@@ -53,7 +53,7 @@ const AdsCards = () => {
           <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="/" id="banner" />
+              <img src={banner} alt="banner_pic" id="banner" />
             </div>
           </Link>
 
@@ -64,14 +64,14 @@ const AdsCards = () => {
                 <br />
                 левых краях
               </h1>
-              <img src={bus} alt="/" />
+              <img src={bus} alt="bus_pic" />
             </div>
           </Link>
 
           <Link to={"/led-ads"} target="_blank">
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
-              <img src={led} alt="/" />
+              <img src={led} alt="led_pic" />
             </div>
           </Link>
         </div>
@@ -84,14 +84,14 @@ const AdsCards = () => {
                 <br />
                 по низким ценам
               </h1>
-              <img src={banner2} alt="/" />
+              <img src={banner2} alt="banner2_pic" />
             </div>
           </Link>
 
           <Link to={"/radio-ads"} target="_blank">
             <div className="cardRow">
               <h1>Радиореклама</h1>
-              <img src={radio} alt="/" />
+              <img src={radio} alt="radio_pic" />
             </div>
           </Link>
 
@@ -103,7 +103,7 @@ const AdsCards = () => {
                 профессиональные
                 <br /> видеоролики
               </h1>
-              <img src={cinema} alt="/" />
+              <img src={cinema} alt="cinema_pic" />
             </div>
           </Link>
         </div>

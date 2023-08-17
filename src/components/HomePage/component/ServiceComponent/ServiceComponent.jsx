@@ -30,19 +30,19 @@ const ServiceComponent = () => {
       </div>
       <div className="serviceChannels">
         <div className="rowImgs">
-          <img src={kinoteatr} alt="/" />
-          <img src={toshkent} alt="/" />
-          <img src={sport} alt="/" />
+          <img src={kinoteatr} alt="kinoteatr_pic" />
+          <img src={toshkent} alt="toshkent_pic" />
+          <img src={sport} alt="sport_pic" />
         </div>
         <div className="rowImgs">
-          <img src={mahalla} alt="/" />
-          <img src={ozbekiston24} alt="/" />
-          <img src={yoshlar} alt="/" />
+          <img src={mahalla} alt="mahalla_pic" />
+          <img src={ozbekiston24} alt="ozbekistan24_pic" />
+          <img src={yoshlar} alt="yoshlar_pic" />
         </div>
         <div className="rowImgs">
-          <img src={navo} alt="/" />
-          <img src={oilaviy} alt="/" />
-          <img src={ozbekiston} alt="/" />
+          <img src={navo} alt="navo_pic" />
+          <img src={oilaviy} alt="oilaviy_pic" />
+          <img src={ozbekiston} alt="ozbekistan_pic" />
         </div>
       </div>
 
@@ -55,7 +55,7 @@ const ServiceComponent = () => {
                 <br />
                 на Зор тв
               </h1>
-              <img src={zortv} alt="/" />
+              <img src={zortv} alt="zortv_logo" />
             </div>
           </Link>
 
@@ -66,7 +66,7 @@ const ServiceComponent = () => {
                 <br />
                 на Севимли тв
               </h1>
-              <img src={sevimli} alt="/" />
+              <img src={sevimli} alt="sevimli_logo" />
             </div>
           </Link>
 
@@ -77,7 +77,7 @@ const ServiceComponent = () => {
                 <br />
                 на My5 тв
               </h1>
-              <img src={my5} alt="/" id="third" />
+              <img src={my5} alt="my5_logo" id="third" />
             </div>
           </Link>
         </div>
@@ -86,7 +86,7 @@ const ServiceComponent = () => {
           <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="/" id="banner"/>
+              <img src={banner} alt="banner_pic" id="banner"/>
             </div>
           </Link>
 
@@ -97,14 +97,14 @@ const ServiceComponent = () => {
                 <br />
                 левых краях
               </h1>
-              <img src={bus} alt="/" />
+              <img src={bus} alt="bus_pic" />
             </div>
           </Link>
 
           <Link to={"/led-ads"} target="_blank">
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
-              <img src={led} alt="/" />
+              <img src={led} alt="led_pic" />
             </div>
           </Link>
         </div>
@@ -117,14 +117,14 @@ const ServiceComponent = () => {
                 <br />
                 по низким ценам
               </h1>
-              <img src={banner2} alt="/" />
+              <img src={banner2} alt="banner2_pic" />
             </div>
           </Link>
 
           <Link to={"/radio-ads"} target="_blank">
             <div className="cardRow">
               <h1>Радиореклама</h1>
-              <img src={radio} alt="/" />
+              <img src={radio} alt="radio_pic" />
             </div>
           </Link>
 
@@ -136,7 +136,7 @@ const ServiceComponent = () => {
                 профессиональные
                 <br /> видеоролики
               </h1>
-              <img src={cinema} alt="/" />
+              <img src={cinema} alt="cinema_pic" />
             </div>
           </Link>
         </div>

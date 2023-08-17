@@ -7,7 +7,7 @@ const My5Ads = () => {
   return (
     <div className="adsCard-container">
       <div className="adsCard-title">
-        <img src={my5} alt="/" id='my5_img'/>
+        <img src={my5} alt="My5Img" id='my5_img'/>
         <h1>Размещение на My5 тв</h1>
       </div>
 
