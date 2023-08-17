@@ -34,11 +34,11 @@ const PortfolioCards = () => {
                 </div>
                 <div className="card-img">
                     <img src={metroAds} alt="/" />
-                    <Link>More »</Link>
+                    <Link to={'/ads-metro'}>More »</Link>
                 </div>
                 <div className="card-img">
                     <img src={metroAds2} alt="/" />
-                    <Link>More »</Link>
+                    <Link to={"/ads-metro-inner"}>More »</Link>
                 </div>
             </div>
             

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#metroInner {
+  height: 220vh;
+}
+
+#metroInner > img {
+  height: 100vh;
+}
+
+@media (max-width: 428px) {
+  #metroInner {
+    height: 115vh;
+  }
+  #metroInner > img {
+    height: 450px;
+  }
+}
+@media (max-width: 414px) {
+  #metroInner {
+    height: 145vh;
+  }
+  #metroInner > img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 390px) {
+  #metroInner {
+    height: 110vh;
+  }
+  #metroInner > img {
+    height: 350px;
+  }
+}
