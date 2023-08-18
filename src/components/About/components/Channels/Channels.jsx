@@ -8,7 +8,6 @@ import navo from "../../../../Assets/Images/navo.jpg";
 import sport from "../../../../Assets/Images/sport.jpg";
 import oilaviy from "../../../../Assets/Images/oilaviy.jpg";
 import mahalla from "../../../../Assets/Images/mahalla.jpg";
-import dunyo_boylab from "../../../../Assets/Images/dunyo_bo'ylab.jpg";
 import kinoteatr from "../../../../Assets/Images/kinoteatr.jpg";
 
 const Channels = () => {
@@ -16,19 +15,19 @@ const Channels = () => {
     <div className='channels-container' id='aboutPage-channels'>
         <div className="serviceChannels">
         <div className="rowImgs">
-          <img src={kinoteatr} alt="kinoteatr_pic" />
-          <img src={toshkent} alt="toshkent_pic" />
-          <img src={sport} alt="sport_pic" />
+          <img src={kinoteatr} alt="канал кинотеатр" />
+          <img src={toshkent} alt="размещение рекламы в тошкент канал" />
+          <img src={sport} alt="реклама в канале спорт" />
         </div>
         <div className="rowImgs">
-          <img src={mahalla} alt="mahalla_pic" />
+          <img src={mahalla} alt="продвигание рекламы в махалла" />
           <img src={ozbekiston24} alt="ozbekistan24_pic" />
-          <img src={yoshlar} alt="yoshlar_pic" />
+          <img src={yoshlar} alt="размещение на ёшлар" />
         </div>
         <div className="rowImgs">
-          <img src={navo} alt="navo_pic" />
-          <img src={oilaviy} alt="oilaviy_pic" />
-          <img src={ozbekiston} alt="ozbekiston_pic" />
+          <img src={navo} alt="размещение на наво" />
+          <img src={oilaviy} alt="реклама в телеканале оилавий" />
+          <img src={ozbekiston} alt="размещение на " />
         </div>
       </div>
     </div>

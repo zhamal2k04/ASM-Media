@@ -166,7 +166,7 @@
     font-weight: 600;
     line-height: normal;
   }
-  .footer-container > ul > li > p {
+  .footer-container > ul > li > {
     margin-top: 4px;
     text-decoration: none;
     color: white;
@@ -179,6 +179,9 @@
   }
   #firstHr {
     width: 9.5rem;
+  }
+  #nums{
+    font-size: 16px;
   }
 }
 
@@ -258,5 +261,15 @@
   }
   #firstHr {
     width: 9.5rem;
+  }
+  #nums{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:375px) {
+  #nums{
+    font-size: 14px;
   }
 }

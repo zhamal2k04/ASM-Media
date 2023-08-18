@@ -1,6 +1,6 @@
 import React from 'react'
 import "./MainComponent.css"
-import bg_video from "../../../../Assets/Videos/bg-video.mp4"
+import bg_video from "../../../../Assets/Videos/bg-portfolio_video.mp4"
 
 const MainComponent = () => {
   return (

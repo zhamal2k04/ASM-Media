@@ -15,29 +15,29 @@ const PortfolioCards = () => {
         <div className="simpleCardHolder">
             <div className="cardsRow">
               <div className="card-img">
-                <img src={bannerAds} alt="BannerAds" />
+                <img src={bannerAds} alt="размещение баннеры" />
                 <Link to={"/ads-banner"}>More »</Link>
               </div>
               <div className="card-img">
-                <img src={videoAds} alt="VideoAds" />
+                <img src={videoAds} alt="видео реклама" />
                 <Link to={"/ads-video"}>More »</Link>
               </div>
               <div className="card-img">
-                <img src={ledAds} alt="LedAds" />
+                <img src={ledAds} alt="реклама лэд" />
                 <Link to={"/ads-led"}>More »</Link>
               </div>
             </div>
             <div className="cardsRow">
                 <div className="card-img">
-                    <img src={busAds} alt="BusAds" />
+                    <img src={busAds} alt="автобусные рекламы" />
                     <Link to={"/ads-bus"}>More »</Link>
                 </div>
                 <div className="card-img">
-                    <img src={metroAds} alt="MetroAds" />
+                    <img src={metroAds} alt="реклама в метро" />
                     <Link to={'/ads-metro'}>More »</Link>
                 </div>
                 <div className="card-img">
-                    <img src={metroAds2} alt="MetroAds--2" />
+                    <img src={metroAds2} alt="реклама баннер в метро" />
                     <Link to={"/ads-metro-inner"}>More »</Link>
                 </div>
             </div>

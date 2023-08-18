@@ -110,8 +110,8 @@ const MyFooter = () => {
             </Link>
         </li>
         <li style={{display:'flex', flexDirection:'column'}}>
-            <a href="#" onClick={() => window.location.href = 'tel:+998330700070'}>+998(33)0700070</a>
-            <a href="#" onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0750070</a>
+            <a href="#" id='nums' onClick={() => window.location.href = 'tel:+998330700070'}>+998(33)0700070</a>
+            <a href="#" id='nums' onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0750070</a>
         </li>
         <li>
             <h2>Узбекистан, Ташкент<br/>улица Богибустон 186</h2>

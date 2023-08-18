@@ -13,26 +13,26 @@ const Bus_Ads = () => {
     <div className="ads-container" id="bus-ads">
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
-                <img src={busAds} alt="busAdsImg" />
+                <img src={busAds} alt="автобусные рекламы" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds2} alt="busAdsImg--2" />
-            </div>
-        </div>
-        <div className="AdsImagesHandler">
-            <div className="rowAdsImgs">
-                <img src={busAds3} alt="busAdsImg--3" />
-            </div>
-            <div className="rowAdsImgs">
-                <img src={busAds4} alt="busAdsImg--4" />
+                <img src={busAds2} alt="рекламы в автобусе" />
             </div>
         </div>
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
-                <img src={busAds5} alt="busAdsImg--5" />
+                <img src={busAds3} alt="автобус реклама" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds6} alt="busAdsImg--6" />
+                <img src={busAds4} alt="реклама автобусе" />
+            </div>
+        </div>
+        <div className="AdsImagesHandler">
+            <div className="rowAdsImgs">
+                <img src={busAds5} alt="реклама в автобусных транспортах" />
+            </div>
+            <div className="rowAdsImgs">
+                <img src={busAds6} alt="автобусные рекламные размещение" />
             </div>
         </div>
     </div>

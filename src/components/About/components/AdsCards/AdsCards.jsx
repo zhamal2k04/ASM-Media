@@ -22,7 +22,7 @@ const AdsCards = () => {
                 <br />
                 на Зор тв
               </h1>
-              <img src={zortv} alt="zortv_logo" />
+              <img src={zortv} alt="Зортв" />
             </div>
           </Link>
 
@@ -44,7 +44,7 @@ const AdsCards = () => {
                 <br />
                 на My5 тв
               </h1>
-              <img src={my5} alt="my5_logo" id="third" />
+              <img src={my5} alt="My5" id="third" />
             </div>
           </Link>
         </div>
@@ -53,7 +53,7 @@ const AdsCards = () => {
           <Link to={"/outdoor-ads"} target="_blank">
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="banner_pic" id="banner" />
+              <img src={banner} alt="наружные реклама" id="banner" />
             </div>
           </Link>
 
@@ -64,7 +64,7 @@ const AdsCards = () => {
                 <br />
                 левых краях
               </h1>
-              <img src={bus} alt="bus_pic" />
+              <img src={bus} alt="автобусные реклама" />
             </div>
           </Link>
 
@@ -84,14 +84,14 @@ const AdsCards = () => {
                 <br />
                 по низким ценам
               </h1>
-              <img src={banner2} alt="banner2_pic" />
+              <img src={banner2} alt="баннер реклама" />
             </div>
           </Link>
 
           <Link to={"/radio-ads"} target="_blank">
             <div className="cardRow">
               <h1>Радиореклама</h1>
-              <img src={radio} alt="radio_pic" />
+              <img src={radio} alt="радио реклама" />
             </div>
           </Link>
 
@@ -103,7 +103,7 @@ const AdsCards = () => {
                 профессиональные
                 <br /> видеоролики
               </h1>
-              <img src={cinema} alt="cinema_pic" />
+              <img src={cinema} alt="видео реклама" />
             </div>
           </Link>
         </div>
