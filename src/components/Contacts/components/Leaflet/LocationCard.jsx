@@ -32,9 +32,9 @@ const LeafLet = () => {
         />
         <Marker position={[41.271818, 69.231984]} icon={newMarker}>
           <Popup>
-            <h1 style={{ textAlign: "center" }}>Bog'ibo'ston</h1>
+            <h1 style={{ textAlign: "center" }}>Наша Здания</h1>
             <span style={{ color: "#112", textAlign:'center' }}>
-              <p>Наша здания</p>
+              <p>Bog'ibo'ston, 186</p>
             </span>
           </Popup>
         </Marker>

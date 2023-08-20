@@ -164,6 +164,56 @@
   }
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .centerComponent-container {
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+  }
+  .centerTitle,
+  .centerSubTitle {
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centerTitle > h1 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+  .centerSubTitle > ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  .centerSubTitle ul > li {
+    margin-top: 13px;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+}
+
 @media (max-width: 375px) {
   .centerComponent-container {
     gap: inherit;

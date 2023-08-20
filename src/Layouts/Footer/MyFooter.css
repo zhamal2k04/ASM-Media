@@ -180,11 +180,92 @@
   #firstHr {
     width: 9.5rem;
   }
-  #nums{
+  #nums {
     font-size: 16px;
   }
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .footer-container {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+    gap: 20px;
+  }
+
+  .imgContainer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgContainer > img {
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .footer-container > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2px;
+    color: white;
+  }
+  .footer-container > ul > li > a {
+    text-decoration: none;
+  }
+  .footer-container > ul > li > a > p {
+    margin-top: 4px;
+    text-decoration: none;
+    color: white;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .footer-container > ul > li > a > h1 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .footer-container > ul > li > h2 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .footer-container > ul > li > {
+    margin-top: 4px;
+    text-decoration: none;
+    color: white;
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #firstHr {
+    width: 9.5rem;
+  }
+  #nums {
+    font-size: 16px;
+  }
+}
 @media (max-width: 428px) {
   .footer-container {
     width: 100%;
@@ -262,14 +343,13 @@
   #firstHr {
     width: 9.5rem;
   }
-  #nums{
+  #nums {
     font-size: 16px;
   }
 }
 
-
-@media (max-width:375px) {
-  #nums{
+@media (max-width: 375px) {
+  #nums {
     font-size: 14px;
   }
 }

@@ -225,6 +225,145 @@
     line-height: normal;
   }
 }
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+  .mainCard-container {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background-image: url("../../../../Assets/Images/bg-maincard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainCard-sectionHandler {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainCard-Title {
+    width: 100%;
+    height: 200px;
+  }
+  .mainCard-Title > h1 {
+    text-transform: uppercase;
+    color: #c5964f;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .mainCard-Title > h2 {
+    font-size: 0;
+  }
+  .mainCard-Title > h3 {
+    color: #fff;
+    font-family: "Abhaya Libre", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .mainCard-ads {
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .mainCard-ads > p {
+    color: #000;
+    font-family: "Alice", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .mainCard-container {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background-image: url("../../../../Assets/Images/bg-maincard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainCard-sectionHandler {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainCard-Title {
+    width: 100%;
+    height: 200px;
+  }
+  .mainCard-Title > h1 {
+    text-transform: uppercase;
+    color: #c5964f;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .mainCard-Title > h2 {
+    font-size: 0;
+  }
+  .mainCard-Title > h3 {
+    color: #fff;
+    font-family: "Abhaya Libre", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .mainCard-ads {
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .mainCard-ads > p {
+    color: #000;
+    font-family: "Alice", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
 
 @media (max-width: 375px) {
   .mainCard-Title > h3 {
