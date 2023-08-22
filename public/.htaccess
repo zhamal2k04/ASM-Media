@@ -1,0 +1,11 @@
+# Разрешить доступ ко всем изображениям и видео
+<FilesMatch "\.(jpg|jpeg|png|gif|bmp|ico|svg|webp|mp4|webm|ogg|ogv)$">
+    Allow from all
+    Header set Cache-Control "public, max-age=2592000" # Кэширование на 30 дней
+</FilesMatch>
+
+# Запретить доступ к .htaccess
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
