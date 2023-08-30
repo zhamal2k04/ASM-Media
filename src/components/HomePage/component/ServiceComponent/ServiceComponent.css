@@ -227,8 +227,7 @@
   .serviceComponent-container {
     margin-top: 0px;
     width: 100%;
-    height: 420vh;
-    background-color: #000;
+    height: 435vh;
   }
   .serviceTitle {
     margin-top: 10px;
@@ -293,8 +292,9 @@
   }
 
   #banner {
+    width: 160px;
     top: 10px;
-    left: 119px;
+    left: 100px;
   }
 
   #third {
@@ -455,23 +455,27 @@
   .serviceComponent-container {
     margin-top: 0px;
     width: 100%;
-    height: 2900px;
+    height: 520vh;
     background-color: #000;
   }
   .serviceTitle {
     margin-top: 10px;
     width: 100%;
-    height: 180px;
+    padding: 2rem;
     gap: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .serviceTitle > h1 {
     font-size: 60px;
   }
   .serviceTitle > h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .serviceTitle > h3 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .serviceChannels {
     margin-top: 10px;

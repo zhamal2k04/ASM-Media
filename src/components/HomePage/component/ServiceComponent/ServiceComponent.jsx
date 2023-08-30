@@ -30,105 +30,105 @@ const ServiceComponent = () => {
       </div>
       <div className="serviceChannels">
         <div className="rowImgs">
-          <img src={kinoteatr} alt="kinoteatr_pic" />
-          <img src={toshkent} alt="toshkent_pic" />
-          <img src={sport} alt="sport_pic" />
+          <img src={kinoteatr} alt="реклама ТВ Кинотеатр" />
+          <img src={toshkent} alt="реклама ТВ Тошкент" />
+          <img src={sport} alt="реклама ТВ Спорт" />
         </div>
         <div className="rowImgs">
-          <img src={mahalla} alt="mahalla_pic" />
-          <img src={ozbekiston24} alt="ozbekistan24_pic" />
-          <img src={yoshlar} alt="yoshlar_pic" />
+          <img src={mahalla} alt="Реклама в Махалля" />
+          <img src={ozbekiston24} alt="Реклама в Узбекистан24" />
+          <img src={yoshlar} alt="Реклама в Ёшлар" />
         </div>
         <div className="rowImgs">
-          <img src={navo} alt="navo_pic" />
-          <img src={oilaviy} alt="oilaviy_pic" />
-          <img src={ozbekiston} alt="ozbekistan_pic" />
+          <img src={navo} alt="Реклама на ТВ Наво" />
+          <img src={oilaviy} alt="Реклама на ТВ Оилавий" />
+          <img src={ozbekiston} alt="Реклама на ТВ Узбекистан" />
         </div>
       </div>
 
       <div className="channelsCards">
         <div className="cardsHolder">
-          <Link to={"/zortv"} target="_blank">
+          <Link to={"/zortv"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на Зор тв
               </h1>
-              <img src={zortv} alt="zortv_logo" />
+              <img src={zortv} alt="zo'r tv" />
             </div>
           </Link>
 
-          <Link to={"/sevimlitv"} target="_blank">
+          <Link to={"/sevimlitv"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на Севимли тв
               </h1>
-              <img src={sevimli} alt="sevimli_logo" />
+              <img src={sevimli} alt="sevimli tv" />
             </div>
           </Link>
 
-          <Link to={"/my5"} target="_blank">
+          <Link to={"/my5"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на My5 тв
               </h1>
-              <img src={my5} alt="my5_logo" id="third" />
+              <img src={my5} alt="mening yurtim" id="third" />
             </div>
           </Link>
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/outdoor-ads"} target="_blank">
+          <Link to={"/outdoor-ads"}>
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="banner_pic" id="banner"/>
+              <img src={banner} alt="Баннерные рекламы" id="banner"/>
             </div>
           </Link>
 
-          <Link to={"/bus-ads"} target="_blank">
+          <Link to={"/bus-ads"}>
             <div className="cardRow">
               <h1>
                 Автобусы
                 <br />
                 левых краях
               </h1>
-              <img src={bus} alt="bus_pic" />
+              <img src={bus} alt="Автобусные рекламы" />
             </div>
           </Link>
 
-          <Link to={"/led-ads"} target="_blank">
+          <Link to={"/led-ads"}>
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
-              <img src={led} alt="led_pic" />
+              <img src={led} alt="Лед Мониторинг" />
             </div>
           </Link>
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/banner-ads"} target="_blank">
+          <Link to={"/banner-ads"}>
             <div className="cardRow">
               <h1>
                 Баннеры
                 <br />
                 по низким ценам
               </h1>
-              <img src={banner2} alt="banner2_pic" />
+              <img src={banner2} alt="Баннерные уличные рекламы" />
             </div>
           </Link>
 
-          <Link to={"/radio-ads"} target="_blank">
+          <Link to={"/radio-ads"}>
             <div className="cardRow">
               <h1>Радиореклама</h1>
-              <img src={radio} alt="radio_pic" />
+              <img src={radio} alt="Радиорекламы" />
             </div>
           </Link>
 
-          <Link to={"/cinema-ads"} target="_blank">
+          <Link to={"/cinema-ads"}>
             <div className="cardRow">
               <h1>
                 Снимать
@@ -136,7 +136,7 @@ const ServiceComponent = () => {
                 профессиональные
                 <br /> видеоролики
               </h1>
-              <img src={cinema} alt="cinema_pic" />
+              <img src={cinema} alt="Видео реклама" />
             </div>
           </Link>
         </div>

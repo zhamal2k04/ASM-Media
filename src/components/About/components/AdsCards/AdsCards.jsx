@@ -14,88 +14,88 @@ const AdsCards = () => {
   return (
     <div className="adsCards-container" id="aboutPage-adsContainer">
       <div className="channelsCards" id="aboutPage-channelCards">
-        <div className="cardsHolder">
-          <Link to={"/zortv"} target="_blank">
+      <div className="cardsHolder">
+          <Link to={"/zortv"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на Зор тв
               </h1>
-              <img src={zortv} alt="Зортв" />
+              <img src={zortv} alt="zo'r tv" />
             </div>
           </Link>
 
-          <Link to={"/sevimlitv"} target="_blank">
+          <Link to={"/sevimlitv"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на Севимли тв
               </h1>
-              <img src={sevimli} alt="sevimli_logo" />
+              <img src={sevimli} alt="sevimli tv" />
             </div>
           </Link>
 
-          <Link to={"/my5"} target="_blank">
+          <Link to={"/my5"}>
             <div className="cardRow">
               <h1>
                 Размещение
                 <br />
                 на My5 тв
               </h1>
-              <img src={my5} alt="My5" id="third" />
+              <img src={my5} alt="mening yurtim" id="third" />
             </div>
           </Link>
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/outdoor-ads"} target="_blank">
+          <Link to={"/outdoor-ads"}>
             <div className="cardRow">
               <h1>Наружные</h1>
-              <img src={banner} alt="наружные реклама" id="banner" />
+              <img src={banner} alt="Баннерные рекламы" id="banner"/>
             </div>
           </Link>
 
-          <Link to={"/bus-ads"} target="_blank">
+          <Link to={"/bus-ads"}>
             <div className="cardRow">
               <h1>
                 Автобусы
                 <br />
                 левых краях
               </h1>
-              <img src={bus} alt="автобусные реклама" />
+              <img src={bus} alt="Автобусные рекламы" />
             </div>
           </Link>
 
-          <Link to={"/led-ads"} target="_blank">
+          <Link to={"/led-ads"}>
             <div className="cardRow">
               <h1>Лед мониторинг</h1>
-              <img src={led} alt="led_pic" />
+              <img src={led} alt="Лед Мониторинг" />
             </div>
           </Link>
         </div>
 
         <div className="cardsHolder">
-          <Link to={"/banner-ads"} target="_blank">
+          <Link to={"/banner-ads"}>
             <div className="cardRow">
               <h1>
                 Баннеры
                 <br />
                 по низким ценам
               </h1>
-              <img src={banner2} alt="баннер реклама" />
+              <img src={banner2} alt="Баннерные уличные рекламы" />
             </div>
           </Link>
 
-          <Link to={"/radio-ads"} target="_blank">
+          <Link to={"/radio-ads"}>
             <div className="cardRow">
               <h1>Радиореклама</h1>
-              <img src={radio} alt="радио реклама" />
+              <img src={radio} alt="Радиорекламы" />
             </div>
           </Link>
 
-          <Link to={"/cinema-ads"} target="_blank">
+          <Link to={"/cinema-ads"}>
             <div className="cardRow">
               <h1>
                 Снимать
@@ -103,7 +103,7 @@ const AdsCards = () => {
                 профессиональные
                 <br /> видеоролики
               </h1>
-              <img src={cinema} alt="видео реклама" />
+              <img src={cinema} alt="Видео реклама" />
             </div>
           </Link>
         </div>

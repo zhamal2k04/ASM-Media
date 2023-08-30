@@ -51,6 +51,13 @@
   .rowAdsImgs > img {
     border-radius: 10px;
   }
+  #bus-ads > h1 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #bus-ads > h2 {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 428px) {
@@ -72,12 +79,22 @@
   .rowAdsImgs > img {
     border-radius: 10px;
   }
+  #bus-ads > h1 {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  #bus-ads > h2 {
+    font-size: 14px;
+  }
 }
 @media (max-width: 375px) {
   #bus-ads {
     height: 240vh;
   }
   .rowAdsImgs {
-    height: 280px;
+    height: 220px;
+  }
+  .rowAdsImgs > img {
+    height: 100%;
   }
 }

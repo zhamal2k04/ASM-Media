@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,36 +6,33 @@
 }
 .ads-container {
   width: 100%;
-  height: 185vh;
+  height: 210vh;
   background-color: #000;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 45px;
   padding-top: 4rem;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-
+.ads-container > h1,
+.ads-container > h2 {
+  font-size: 50px;
+  color: white;
+  font-family: "Anhaya", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 3px #FF6347;
+}
+.ads-container > h2 {
+  font-size: 20px;
+}
 .ads-container > img {
-  width: 100%;
+  width: 80%;
   height: 800px;
   border-radius: 20px;
   box-shadow: rgb(38, 77, 77) 0px 20px 30px -10px;
-}
-
-@media (max-width: 414px) {
-  .ads-container {
-    width: 100%;
-    height: 700px;
-    background-color: #000;
-    gap: 40px;
-    padding-top: 4rem;
-  }
-  .ads-container > img {
-    width: 100%;
-    height: 260px;
-    border-radius: 10px;
-  }
 }
 
 @media (max-width: 428px) {
@@ -50,6 +48,42 @@
     height: 260px;
     border-radius: 10px;
   }
+  .ads-container > h1 {
+    font-size: 22px;
+  }
+  .ads-container > h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 414px) {
+  .ads-container {
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    gap: 40px;
+    padding-top: 4rem;
+  }
+  .ads-container > img {
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+  }
+  .ads-container > h1 {
+    font-size: 20px;
+  }
+  .ads-container > h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .ads-container > h1 {
+    font-size: 20px;
+  }
+  .ads-container > h2 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -58,5 +92,11 @@
   }
   .ads-container > img {
     height: 240px;
+  }
+  .ads-container > h1 {
+    font-size: 20px;
+  }
+  .ads-container > h2 {
+    font-size: 16px;
   }
 }

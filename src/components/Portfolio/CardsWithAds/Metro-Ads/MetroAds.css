@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 375px) {
+  
+  #metroSubTitle {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+  }
+}

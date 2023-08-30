@@ -6,11 +6,23 @@ import busAds3 from "../../../../Assets/Images/bus_portfolio4.jpg"
 import busAds4 from "../../../../Assets/Images/bus_portfolio5.jpg"
 import busAds5 from "../../../../Assets/Images/bus_portfolio6.jpg"
 import busAds6 from "../../../../Assets/Images/bus_portfolio7.jpg"
-
+import {MetaTags} from "react-meta-tags"
 
 const Bus_Ads = () => {
+    
   return (
-    <div className="ads-container" id="bus-ads">
+    
+    <div className="ads-container" id="bus-ads"> 
+        <MetaTags>
+            <title>Реклама на автобусах: повышайте видимость своего бренда с ASM-Media</title>
+            <meta name="description" content="Эффективная реклама на автобусах: повышайте видимость своего бренда с помощью рекламы на городском транспорте." />
+            <meta property="og:title" content="Реклама на автобусах: повышайте видимость своего бренда с ASM-Media" />
+            <meta property="og:description" content="Эффективная реклама на автобусах: повышайте видимость своего бренда с помощью рекламы на городском транспорте." />
+            <meta name="keywords" content="реклама на автобусах, городская реклама, мобильная реклама, реклама на транспорте, развитие бизнеса, avtobus reklama, shahar reklama, mobil reklama, transportda reklama" />
+            <meta property="og:type" content="website"/>
+        </MetaTags>
+        <h1>Реклама на автобусах: повышайте видимость своего бренда с ASM-Media</h1>
+        <h2>Эффективная реклама на автобусах: повышайте видимость своего бренда с помощью рекламы на городском транспорте.</h2>
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
                 <img src={busAds} alt="автобусные рекламы" />
@@ -24,7 +36,7 @@ const Bus_Ads = () => {
                 <img src={busAds3} alt="автобус реклама" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds4} alt="реклама автобусе" />
+                <img src={busAds4} alt="скидка на автобусные рекламы" />
             </div>
         </div>
         <div className="AdsImagesHandler">
@@ -32,7 +44,7 @@ const Bus_Ads = () => {
                 <img src={busAds5} alt="реклама в автобусных транспортах" />
             </div>
             <div className="rowAdsImgs">
-                <img src={busAds6} alt="автобусные рекламные размещение" />
+                <img src={busAds6} alt="размещение автобусных реклам" />
             </div>
         </div>
     </div>

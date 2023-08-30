@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 const MyNavbar = () => {
   return (
-    <div class="nav-container">
+    <div className="nav-container">
       <Link to={"/home"}>
         <img src={nav_logo} alt="nav_logo" />
       </Link>
-      <div class="section">
+      <div className="section">
         <ol>
           <li>
             <Link to={"https://t.me/asm_media"} target="_blank">
@@ -29,7 +29,7 @@ const MyNavbar = () => {
           <li>
             <Link to={""}>
               <img src={cell} alt="phone_logo" />
-              <a href="#" onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0750070</a>
+              <a href="#" onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0700070</a>
             </Link>
           </li>
         </ol>

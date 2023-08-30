@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const MyFooter = () => {
   return (
-    <div class="footer-container">
+    <div className="footer-container">
     <section className='imgContainer'>
         <img src={footer_logo} alt="footer_logo"/>
     </section>
@@ -111,7 +111,7 @@ const MyFooter = () => {
         </li>
         <li style={{display:'flex', flexDirection:'column'}}>
             <a href="#" id='nums' onClick={() => window.location.href = 'tel:+998330700070'}>+998(33)0700070</a>
-            <a href="#" id='nums' onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0750070</a>
+            <a href="#" id='nums' onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)7010070</a>
         </li>
         <li>
             <h2>Узбекистан, Ташкент<br/>улица Богибустон 186</h2>
