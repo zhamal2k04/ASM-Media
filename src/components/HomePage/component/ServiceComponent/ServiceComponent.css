@@ -112,7 +112,8 @@
   height: 450px;
   text-align: center;
   background-image: url("../../../../Assets/Images/card.png");
-  background-position: center;
+  background-size: cover auto;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -630,4 +631,5 @@
   .serviceTitle > h3 {
     font-size: 13px;
   }
+  
 }

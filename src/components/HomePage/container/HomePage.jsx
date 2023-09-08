@@ -20,6 +20,7 @@ const HomePage = () => {
   return (
     <div className='homePage-container'>
         <MetaTags>
+          <title>Рекламное агентство ASM-Media</title>
           <meta name="description" content="Продвигайте свой бизнес с нами. Мы поможем вам рекламировать ваши товары и услуги." />
           <meta property="og:title" content="Рекламное агентство ASM-Media: Продвигайте свой бизнес с нами. С Нами всегда удобно!" />
           <meta property="og:description" content="Продвигайте свой бизнес с нами. Мы поможем вам рекламировать ваши товары и услуги." />

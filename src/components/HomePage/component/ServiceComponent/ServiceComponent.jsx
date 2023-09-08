@@ -19,14 +19,16 @@ import bus from "../../../../Assets/Images/bus.png";
 import led from "../../../../Assets/Images/led.png";
 import radio from "../../../../Assets/Images/radio.png";
 import cinema from "../../../../Assets/Images/cinema.png";
+import { useTranslation } from "react-i18next";
 
 const ServiceComponent = () => {
+  const { t } = useTranslation();
   return (
     <div className="serviceComponent-container">
       <div className="serviceTitle">
-        <h1>Service</h1>
-        <h2>Наши услуги Размещение рекламы на Тв</h2>
-        <h3>Размещение рекламы на (24 каналы)</h3>
+        <h1>{t('serviceTitle')}</h1>
+        <h2>{t('serviceSubTitle')}</h2>
+        <h3>{t('serviceDescription')}</h3>
       </div>
       <div className="serviceChannels">
         <div className="rowImgs">
@@ -50,10 +52,10 @@ const ServiceComponent = () => {
         <div className="cardsHolder">
           <Link to={"/zortv"}>
             <div className="cardRow">
-              <h1>
-                Размещение
+            <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400"}}>
+                {t('accomodation')}
                 <br />
-                на Зор тв
+                {t('to')} {t('zortv')}
               </h1>
               <img src={zortv} alt="zo'r tv" />
             </div>
@@ -61,21 +63,21 @@ const ServiceComponent = () => {
 
           <Link to={"/sevimlitv"}>
             <div className="cardRow">
-              <h1>
-                Размещение
+            <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.15rem", fontWeight: "400"}}>
+                {t('accomodation')}
                 <br />
-                на Севимли тв
+                {t('to')} {t('sevimli')}
               </h1>
               <img src={sevimli} alt="sevimli tv" />
             </div>
           </Link>
 
           <Link to={"/my5"}>
-            <div className="cardRow">
-              <h1>
-                Размещение
+            <div className="cardRow" id="thirdRow">
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400", position:"relative", bottom:"20px"}}>
+                {t('accomodation')}
                 <br />
-                на My5 тв
+                {t('to')} {t('my5')}
               </h1>
               <img src={my5} alt="mening yurtim" id="third" />
             </div>
@@ -85,17 +87,18 @@ const ServiceComponent = () => {
         <div className="cardsHolder">
           <Link to={"/outdoor-ads"}>
             <div className="cardRow">
-              <h1>Наружные</h1>
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400"}}>
+                {t('outdoor')}
+              </h1>
               <img src={banner} alt="Баннерные рекламы" id="banner"/>
             </div>
           </Link>
 
           <Link to={"/bus-ads"}>
             <div className="cardRow">
-              <h1>
-                Автобусы
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400"}}>
+                {t('busEdges')}
                 <br />
-                левых краях
               </h1>
               <img src={bus} alt="Автобусные рекламы" />
             </div>
@@ -103,7 +106,9 @@ const ServiceComponent = () => {
 
           <Link to={"/led-ads"}>
             <div className="cardRow">
-              <h1>Лед мониторинг</h1>
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400", }}>
+                {t('ledMonitoring')}
+              </h1>
               <img src={led} alt="Лед Мониторинг" />
             </div>
           </Link>
@@ -112,10 +117,10 @@ const ServiceComponent = () => {
         <div className="cardsHolder">
           <Link to={"/banner-ads"}>
             <div className="cardRow">
-              <h1>
-                Баннеры
-                <br />
-                по низким ценам
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400", position:"relative", bottom:"10px"}}>
+               {t('banners')}
+               <br />
+               {t('bannerPrice')}
               </h1>
               <img src={banner2} alt="Баннерные уличные рекламы" />
             </div>
@@ -123,26 +128,29 @@ const ServiceComponent = () => {
 
           <Link to={"/radio-ads"}>
             <div className="cardRow">
-              <h1>Радиореклама</h1>
+              <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.25rem", fontWeight: "400", position:"relative", bottom:"10px"}}> 
+                {t('radio')}
+              </h1>
               <img src={radio} alt="Радиорекламы" />
             </div>
           </Link>
 
           <Link to={"/cinema-ads"}>
             <div className="cardRow">
-              <h1>
-                Снимать
-                <br />
-                профессиональные
-                <br /> видеоролики
+             <h1 style={{fontFamily: "IMPACT", letterSpacing: "0.20rem", fontWeight: "400",position:"relative", bottom:"10px"}}> 
+                {t('cinema')}
               </h1>
               <img src={cinema} alt="Видео реклама" />
             </div>
           </Link>
         </div>
         <div className="offers">
-          <h1>По низким ценам</h1>
-          <h2>Скидки от 5% до 75%</h2>
+          <h1>
+            {t('lowPrice')}
+          </h1>
+          <h2>
+            {t('discount')}
+          </h2>
         </div>
       </div>
     </div>

@@ -1,18 +1,28 @@
 import React from 'react'
 import "./MainComponent.css"
+import { useTranslation } from 'react-i18next'
 
 const MainComponent = () => {
+  const {t} = useTranslation()
   return (
     <div className="mainComp-container">
       <div className="aboutPage-Title">
-        <h1>About Us</h1>
+        <h1>
+          {t('aboutTitle')}
+        </h1>
         <h2>
-          Это команда профессионалов со значительным опытом в области рекламы.
+          {t('homeCenterTitle')}
         </h2>
         <ul>
-            <li>Большой опыт работы как с локальными, так и с международными компаниями</li>
-            <li>Комплексных подход и использование интегрированных коммуникаций</li>
-            <li>Специальные условия на размещение рекламы со многими ключевыми медийными площадками</li>
+            <li>
+              {t('homeCenterList1')}
+            </li>
+            <li>
+              {t('homeCenterList2')}
+            </li>
+            <li>
+              {t('homeCenterList3')}
+            </li>
         </ul>
       </div>
     </div>

@@ -1,19 +1,21 @@
 import React from "react";
 import "./CenterComponent.css";
+import { useTranslation } from "react-i18next";
 
 const CenterComponent = () => {
+  const {t} = useTranslation()
   return (
     <div className="centerComponent-container">
       <div className="centerTitle">
         <h1>
-          Это команда профессионалов со значительным опытом в области рекламы.
+          {t('homeCenterTitle')}
         </h1>
       </div>
       <div className="centerSubTitle">
         <ul>
-            <li>Большой опыт работы как с локальными, так и с международными компаниями</li>
-            <li>Комплексных подход и использование интегрированных коммуникаций</li>
-            <li>Специальные условия на размещение рекламы со многими ключевыми медийными площадками</li>
+            <li>{t('homeCenterList1')}</li>
+            <li>{t('homeCenterList2')}</li>
+            <li>{t('homeCenterList3')}</li>
         </ul>
       </div>
     </div>

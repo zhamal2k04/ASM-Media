@@ -22,6 +22,7 @@ const Contacts = () => {
   return (
     <div className='contacts-container'>
         <MetaTags>
+        <title>Контакты - Рекламное агентство ASM-Media</title>
           <meta name="description" content="Свяжитесь с нами для получения бесплатной консультации и обсуждения ваших рекламных потребностей. Мы всегда рады помочь вам!" />
           <meta property="og:title" content="Контакты - Рекламное агентство ASM-Media" />
           <meta property="og:description" content="Свяжитесь с нами для получения бесплатной консультации и обсуждения ваших рекламных потребностей. Мы всегда рады помочь вам!" />

@@ -1,65 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-    <loc>https://www.asm-media.uz</loc>
+    <loc>https://www.asm-media.uz/</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/home</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/zortv</loc>
   </url>
-  <url>
+
   <url>
     <loc>https://www.asm-media.uz/sevimlitv</loc>
   </url>
-  <url>
+
   <url>
     <loc>https://www.asm-media.uz/my5</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/outdoor-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/bus-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/led-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/banner-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/radio-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/cinema-ads</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-banner</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-video</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-led</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-bus</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-metro</loc>
   </url>
+
   <url>
     <loc>https://www.asm-media.uz/ads-metro-inner</loc>
   </url>
+
   <url>
-    <loc>https://www.asm-media.uz/#/about</loc>
+    <loc>https://www.asm-media.uz/about-us</loc>
   </url>
+
   <url>
-    <loc>https://www.asm-media.uz/#/contacts</loc>
+    <loc>https://www.asm-media.uz/contacts</loc>
   </url>
+
   <url>
-    <loc>https://www.asm-media.uz/#/portfolio</loc>
+    <loc>https://www.asm-media.uz/portfolio</loc>
   </url>
 </urlset>

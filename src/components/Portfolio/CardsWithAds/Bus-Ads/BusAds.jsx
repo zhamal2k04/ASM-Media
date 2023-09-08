@@ -7,9 +7,12 @@ import busAds4 from "../../../../Assets/Images/bus_portfolio5.jpg"
 import busAds5 from "../../../../Assets/Images/bus_portfolio6.jpg"
 import busAds6 from "../../../../Assets/Images/bus_portfolio7.jpg"
 import {MetaTags} from "react-meta-tags"
+import ScrollButton from "../../../../UI/Button/ScrollButton";
+import { useTranslation } from "react-i18next";
 
 const Bus_Ads = () => {
-    
+    const {t} = useTranslation()
+
   return (
     
     <div className="ads-container" id="bus-ads"> 
@@ -21,8 +24,8 @@ const Bus_Ads = () => {
             <meta name="keywords" content="реклама на автобусах, городская реклама, мобильная реклама, реклама на транспорте, развитие бизнеса, avtobus reklama, shahar reklama, mobil reklama, transportda reklama" />
             <meta property="og:type" content="website"/>
         </MetaTags>
-        <h1>Реклама на автобусах: повышайте видимость своего бренда с ASM-Media</h1>
-        <h2>Эффективная реклама на автобусах: повышайте видимость своего бренда с помощью рекламы на городском транспорте.</h2>
+        <h1>{t('BusAds')}</h1>
+        <h2>{t('BusDescription')}</h2>
         <div className="AdsImagesHandler">
             <div className="rowAdsImgs">
                 <img src={busAds} alt="автобусные рекламы" />
@@ -47,6 +50,7 @@ const Bus_Ads = () => {
                 <img src={busAds6} alt="размещение автобусных реклам" />
             </div>
         </div>
+        <ScrollButton/>
     </div>
   );
 };

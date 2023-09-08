@@ -24,6 +24,7 @@ const AboutPage = () => {
   return (
     <div className="aboutPage-container">
        <MetaTags>
+          <title>О нас - Рекламное агентство ASM-Media</title>
           <meta name="description" content="Узнайте больше о нашей команде и как мы помогаем клиентам достигать успеха в сфере рекламы." />
           <meta property="og:title" content="О нас - Рекламное агентство ASM-Media." />
           <meta property="og:description" content="Узнайте больше о нашей команде и как мы помогаем клиентам достигать успеха в сфере рекламы." />

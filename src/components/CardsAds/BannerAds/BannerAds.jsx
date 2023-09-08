@@ -3,17 +3,20 @@ import banner from "../../../Assets/Images/banner2.png"
 import "./BannerAds.css"
 import { MetaTags } from "react-meta-tags";
 import ScrollButton from "../../../UI/Button/ScrollButton";
+import { useTranslation } from "react-i18next";
+
 const BannerAds = () => {
   useEffect(() => {
     const canonicalLink = document.createElement('link');
     canonicalLink.setAttribute('rel', 'canonical');
     canonicalLink.setAttribute('href', 'https://www.asm-media.uz/banner-ads');
     document.head.appendChild(canonicalLink);
-
+    
     return () => {
       document.head.removeChild(canonicalLink);
     };
   }, []);
+  const {t} = useTranslation()
   return (
     <div className="adsCard-container">
        <MetaTags>

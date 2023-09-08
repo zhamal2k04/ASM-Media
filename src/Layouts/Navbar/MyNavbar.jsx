@@ -5,8 +5,12 @@ import telegram from "../../Assets/Images/telegram.png";
 import instagram from "../../Assets/Images/instagram.png";
 import cell from "../../Assets/Images/cell.png";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "../../UI/LanguageSelector/LangSelector"
 
 const MyNavbar = () => {
+  const {t} = useTranslation()
+
   return (
     <div className="nav-container">
       <Link to={"/home"}>
@@ -32,13 +36,15 @@ const MyNavbar = () => {
               <a href="#" onClick={() => window.location.href = 'tel:+998330750070'}>+998(33)0700070</a>
             </Link>
           </li>
+         
         </ol>
 
         <ul>
-          <Link to={"/home"}>Home</Link>
-          <Link to={"/about-us"}>About</Link>
-          <Link to={"/portfolio"}>Portfolio</Link>
-          <Link to={"/contacts"}>Contacts</Link>
+        <LanguageSelector/>
+          <Link to={"/home"}>{t('home')}</Link>
+          <Link to={"/about-us"}>{t('about')}</Link>
+          <Link to={"/portfolio"}>{t('portfolio')}</Link>
+          <Link to={"/contacts"}>{t('contacts')}</Link>
         </ul>
       </div>
     </div>

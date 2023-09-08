@@ -1,20 +1,23 @@
 import React from "react";
 import "./LowerCard.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const LowerCard = () => {
+  const {t} = useTranslation()
   return (
     <div className="lowerCard-container">
       <section className="lowerCard-bgImg"></section>
 
       <section className="lowerCard-content">
-        <h1>Есть вопросы или предложения?</h1>
+        <h1>
+          {t('aboutLowerTitle')}
+        </h1>
         <p>
-          Если вы хотите работать с нами или хотите узнать больше о том, что мы
-          делаем, мы будем рады пообщаться с вами
+          {t('aboutDescription')}
         </p>
         <Link to={"https://t.me/asm_media"} target="_blank">
-          <input type="submit" value="Свзятяься" id="submit" />
+          <input type="submit" value={t('aboutBtnClick')} id="submit" />
         </Link>
       </section>
     </div>

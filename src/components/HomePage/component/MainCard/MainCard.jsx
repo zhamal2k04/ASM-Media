@@ -1,18 +1,20 @@
 import React from "react";
 import "./MainCard.css";
+import { useTranslation } from "react-i18next";
 
 const MainCard = () => {
+  const {t} = useTranslation()
   return (
     <div className="mainCard-container">
       <div className="mainCard-sectionHandler">
         <section className="mainCard-Title">
             <h1>Asm</h1>
             <h2>Media</h2>
-            <h3>«A-S-M Media» рекламное агенство более 10 лет на рынке Более+ 700 успешных кейсов</h3>
+            <h3>{t('homeDescription')}</h3>
         </section>
       </div>
       <div className="mainCard-ads">
-        <p>Размещение рекламы на телевидении Узбекистана</p>
+        <p>{t('placementAd')}</p>
       </div>
     </div>
   );

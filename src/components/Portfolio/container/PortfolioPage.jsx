@@ -6,6 +6,8 @@ import LowerCard from '../components/LowerCard/LowerCard'
 import og_img from "../../../Assets/Images/footer-logo.jpg"
 import { MetaTags } from 'react-meta-tags'
 import ScrollButton from '../../../UI/Button/ScrollButton'
+import { useTranslation } from 'react-i18next'
+
 
 const PortfolioPage = () => {
   useEffect(() => {
@@ -18,6 +20,8 @@ const PortfolioPage = () => {
       document.head.removeChild(canonicalLink);
     };
   }, []);
+
+  const {t} = useTranslation()
   return (
     <div className='portfolioPage-container'>
         <MetaTags>
@@ -31,8 +35,8 @@ const PortfolioPage = () => {
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
         </MetaTags>
-          <h1>Портфолио - Рекламное агентство ASM-Media</h1>
-          <h2>Посмотрите наши успешные кейсы и примеры работы с клиентами в различных сферах бизнеса.</h2>
+          <h1>{t('portfolioTitle')}</h1>
+          <h2>{t('portfolioSubTitle')}</h2>
         <MainComponent/>
         <PortfolioCards/>
         <LowerCard/>
